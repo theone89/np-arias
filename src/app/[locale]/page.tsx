@@ -226,7 +226,7 @@ export default function HomePage() {
         <section className="py-16 bg-white dark:bg-gray-900">
           <div className="container mx-auto px-4">
             <h2 className="text-2xl md:text-3xl font-semibold text-center mb-12 text-gray-900 dark:text-gray-100">
-              {t("home.servicesTitle")}
+              {t("home.services.title")}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {[
@@ -259,7 +259,7 @@ export default function HomePage() {
                       {service.name}
                     </h3>
                     <p className="text-gray-700 dark:text-gray-300">
-                      {t("home.serviceDescription")}
+                      {t("home.services.description")}
                     </p>
                   </CardContent>
                 </Card>
@@ -273,7 +273,7 @@ export default function HomePage() {
         <section className="py-16 bg-gray-100 dark:bg-gray-800">
           <div className="container mx-auto px-4">
             <h2 className="text-2xl md:text-3xl font-semibold text-center mb-12 text-gray-900 dark:text-gray-100">
-              {t("home.testimonialsTitle")}
+              {t("home.testimonials.title")}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {[
@@ -326,10 +326,10 @@ export default function HomePage() {
         <section className="py-16 bg-blue-500 dark:bg-blue-600 text-white">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-2xl md:text-3xl font-semibold mb-8">
-              {t("home.promotionsTitle")}
+              {t("home.promotions.title")}
             </h2>
             <p className="text-lg md:text-xl mb-8">
-              {t("home.promotionsDescription")}
+              {t("home.promotions.description")}
             </p>
             <Button
               variant="secondary"
@@ -337,7 +337,7 @@ export default function HomePage() {
               className="bg-white text-blue-500 hover:bg-gray-100 dark:bg-gray-800 dark:text-blue-400 dark:hover:bg-gray-700"
               asChild
             >
-              <Link href="/promociones">{t("home.seeAllOffers")}</Link>
+              <Link href="/promociones">{t("home.promotions.cta")}</Link>
             </Button>
           </div>
         </section>
@@ -397,7 +397,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="mt-8 text-center">
-            <p>&copy; 2023 Clínica Estética. {t("footer.allRightsReserved")}</p>
+            <p>&copy; 2023 Clínica Estética. {t("footer.rights")}</p>
           </div>
         </div>
       </footer>
