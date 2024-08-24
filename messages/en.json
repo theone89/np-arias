@@ -1,4 +1,8 @@
 {
+  "darkMode": {
+    "light": "Ligth Mode",
+    "dark": "Dark Mode"
+  },
   "navigation": {
     "about": "About Us",
     "services": "Services",
