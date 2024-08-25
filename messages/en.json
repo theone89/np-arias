@@ -1,6 +1,6 @@
 {
   "darkMode": {
-    "light": "Ligth Mode",
+    "light": "Light Mode",
     "dark": "Dark Mode"
   },
   "navigation": {
@@ -45,26 +45,25 @@
     "followUs": "Follow Us",
     "rights": "All rights reserved."
   },
-
   "AfterBefore": {
     "work1": {
-      "title": "Website Design",
-      "description": "Creation of a modern and responsive website for a technology company.",
+      "title": "Facial Treatment",
+      "description": "Spectacular result after a rejuvenating facial treatment.",
       "date": "March 2023"
     },
     "work2": {
-      "title": "Logo Design",
-      "description": "Creation of a unique and memorable logo for a beauty products brand.",
+      "title": "Cosmetic Surgery",
+      "description": "Amazing transformation thanks to our elite cosmetic surgery.",
       "date": "July 2022"
     },
     "work3": {
-      "title": "Mobile App Design",
-      "description": "Development of an intuitive and easy-to-use mobile app for a services company.",
+      "title": "Skin Care",
+      "description": "Visible and lasting results with our skin care program.",
       "date": "November 2021"
     },
     "work4": {
-      "title": "Packaging Design",
-      "description": "Creation of an attractive and sustainable packaging design for an organic products line.",
+      "title": "Body Treatment",
+      "description": "Achieve the figure you've always wanted with our body treatments.",
       "date": "September 2020"
     }
   }

@@ -19,24 +19,24 @@
     "services": {
       "title": "Nuestros Servicios",
       "facialTreatments": "Tratamientos Faciales",
-      "cosmeticSurgery": "Cirugía Estética",
+      "cosmeticSurgery": "Cirugía Cosmética",
       "skinCare": "Cuidado de la Piel",
-      "description": "Breve descripción del servicio y sus beneficios para los clientes."
+      "description": "Descripción breve del servicio y sus beneficios para los clientes."
     },
     "testimonials": {
-      "title": "Lo que dicen nuestros clientes",
+      "title": "Lo Que Nuestros Clientes Dicen",
       "testimonial1": {
-        "text": "Excelente atención y resultados increíbles. ¡Totalmente recomendado!",
+        "text": "Excelente atención y resultados increíbles. ¡Muy recomendado!",
         "author": "María G."
       },
       "testimonial2": {
-        "text": "Profesionales altamente calificados. Me siento mucho más seguro ahora.",
+        "text": "Profesionales altamente cualificados. Me siento mucho más segura ahora.",
         "author": "Carlos R."
       }
     },
     "promotions": {
       "title": "Promociones Especiales",
-      "description": "¡20% de descuento en todos los tratamientos faciales este mes!",
+      "description": "20% de descuento en todos los tratamientos faciales este mes!",
       "cta": "Ver Todas las Ofertas"
     }
   },
@@ -47,23 +47,23 @@
   },
   "AfterBefore": {
     "work1": {
-      "title": "Diseño de sitio web",
-      "description": "Creación de un sitio web moderno y responsive para una empresa de tecnología.",
+      "title": "Tratamiento Facial",
+      "description": "Resultado espectacular después de un tratamiento facial rejuvenecedor.",
       "date": "Marzo 2023"
     },
     "work2": {
-      "title": "Diseño de logotipo",
-      "description": "Creación de un logotipo único y memorable para una marca de productos de belleza.",
+      "title": "Cirugía Estética",
+      "description": "Transformación asombrosa gracias a nuestra cirugía estética de élite.",
       "date": "Julio 2022"
     },
     "work3": {
-      "title": "Diseño de aplicación móvil",
-      "description": "Desarrollo de una aplicación móvil intuitiva y fácil de usar para una empresa de servicios.",
+      "title": "Cuidado de la Piel",
+      "description": "Resultados visibles y duraderos con nuestro programa de cuidado de la piel.",
       "date": "Noviembre 2021"
     },
     "work4": {
-      "title": "Diseño de empaques",
-      "description": "Creación de un diseño de empaque atractivo y sostenible para una línea de productos orgánicos.",
+      "title": "Tratamiento Corporal",
+      "description": "Logra la figura que siempre has deseado con nuestros tratamientos corporales.",
       "date": "Septiembre 2020"
     }
   }
