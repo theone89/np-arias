@@ -2,7 +2,7 @@
 import { useTranslations } from "next-intl";
 import ReactCompareImage from "react-compare-image";
 import { useEffect, useState } from "react";
-
+import type {} from "@/app/[locale]/types/types";
 interface CalendarIconProps extends React.SVGProps<SVGSVGElement> {}
 
 export function AfterBefore() {
@@ -14,7 +14,7 @@ export function AfterBefore() {
       try {
         const response = await fetch("https://randomuser.me/api/?results=4");
         const data = await response.json();
-        const userImages = data.results.map((user) => ({
+        const userImages = data.results.map((user: any) => ({
           before: user.picture.large,
           after: user.picture.medium, // Usar una imagen diferente para "después"
         }));
@@ -43,7 +43,6 @@ export function AfterBefore() {
               sliderLineWidth={2}
               sliderLineColor="#fff"
               handleSize={30}
-              handleColor="#fff"
               hover
             />
             <p className="mt-2 text-center text-sm text-muted-foreground">
