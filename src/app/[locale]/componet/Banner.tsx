@@ -8,22 +8,17 @@ export default function Banner() {
   const t = useTranslations();
   return (
     <section
-      className="relative flex items-center justify-center bg-gray-100 dark:bg-gray-800 py-20"
+      className="relative flex items-center justify-center bg-gray-100 dark:bg-gray-100 py-20"
       style={{
-        backgroundImage:
-          "url(https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&h=600)",
+        backgroundImage: "url('/assets/images/banner.webp')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         height: "600px", // Ajusta la altura según sea necesario
-        opacity: 0.6, // Aplicamos opacidad a la imagen de fondo
+        // Aplicamos opacidad a la imagen de fondo
       }}
     >
-      <div className="absolute inset-0 bg-black "></div>{" "}
-      {/* Capa oscura adicional para mejorar la legibilidad del texto */}
-      <div className="container mx-auto px-4 text-center relative z-10">
-        {" "}
-        {/* Añadimos z-10 para que el contenido esté por encima de la capa oscura */}
+      <div className="containermx-auto px-4 text-center relative z-10">
         <h1 className="text-3xl md:text-4xl font-bold mb-4 text-white drop-shadow-lg">
           {t("home.welcome")}
         </h1>

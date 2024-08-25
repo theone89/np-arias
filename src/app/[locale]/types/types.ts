@@ -1,3 +1,10 @@
+// src/types/types.ts
+export interface Testimonial {
+  name: string;
+  text: string;
+  image: string;
+}
+
 export interface Users {
   results: Result[];
   info: Info;

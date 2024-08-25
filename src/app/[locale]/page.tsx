@@ -1,11 +1,12 @@
 import { useTranslations } from "next-intl";
 import { AfterBefore } from "@/components/component/after-before";
-import Service from "@/components/component/Services";
+
 import Header from "./componet/Header";
 import Banner from "./componet/Banner";
 import Testimonial from "./componet/Testimonial";
 import Promotion from "./componet/Promotion";
 import Footer from "./componet/Footer";
+import Service from "./componet/Services";
 
 const HomePage: React.FC = () => {
   const t = useTranslations();
