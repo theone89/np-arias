@@ -4,7 +4,20 @@ import { MenuIcon, MoonIcon, SunIcon } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import Image from 'next'
+import Image from "next/image";
+import { Corinthia, Noto_Sans } from "next/font/google";
+
+// Configurar Corinthia
+const corinthia = Corinthia({
+  subsets: ["latin"],
+  weight: ["700"],
+});
+
+// Configurar Noto Sans
+const notoSans = Noto_Sans({
+  subsets: ["latin"],
+  weight: ["400"],
+});
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
@@ -43,10 +56,24 @@ export default function Header() {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link
           href="/"
-          className="text-2xl font-bold text-blue-500 dark:text-blue-400"
+          className="text-2xl items-center font-bold flex space-x-2 text-center flex-rows text-black dark:text-blue-400"
         >
-          <Image src="" alt="una imagen" width={25}/>
-        </Link>1
+          <Image
+            src={"/assets/images/lp icono.webp"}
+            alt=""
+            width={35}
+            height={35}
+            quality={100}
+            className="items-center "
+          />
+          <div className="items-start">
+            <p className={`${corinthia.className} text-md font-bold`}>
+              Aesthetic
+            </p>
+            <p className={`${notoSans.className} text-xs -mt-2`}>& wellness</p>
+          </div>
+        </Link>
+
         <nav className="hidden md:flex items-center space-x-4">
           <ul className="flex space-x-4">
             <li>
