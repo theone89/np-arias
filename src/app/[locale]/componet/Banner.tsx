@@ -15,10 +15,16 @@ export default function Banner() {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         height: "600px", // Ajusta la altura según sea necesario
-        // Aplicamos opacidad a la imagen de fondo
       }}
     >
-      <div className="containermx-auto px-4 text-center relative z-10">
+      {/* Fondo semitransparente */}
+      <div
+        className="absolute inset-0 bg-black bg-opacity-40" // Fondo negro con 50% de opacidad
+        aria-hidden="true" // Para mejorar la accesibilidad
+      ></div>
+
+      {/* Contenido del banner */}
+      <div className="container mx-auto px-4 text-center relative z-10">
         <h1 className="text-3xl md:text-4xl font-bold mb-4 text-white drop-shadow-lg">
           {t("home.welcome")}
         </h1>
