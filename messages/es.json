@@ -19,24 +19,24 @@
     "services": {
       "title": "Nuestros Servicios",
       "facialTreatments": "Tratamientos Faciales",
-      "cosmeticSurgery": "Cirugía Cosmética",
+      "cosmeticSurgery": "Cirugía Estética",
       "skinCare": "Cuidado de la Piel",
-      "description": "Descripción breve del servicio y sus beneficios para los clientes."
+      "description": "Breve descripción del servicio y sus beneficios para los clientes."
     },
     "testimonials": {
-      "title": "Lo Que Nuestros Clientes Dicen",
+      "title": "Lo Que Dicen Nuestros Clientes",
       "testimonial1": {
         "text": "Excelente atención y resultados increíbles. ¡Muy recomendado!",
         "author": "María G."
       },
       "testimonial2": {
-        "text": "Profesionales altamente cualificados. Me siento mucho más segura ahora.",
+        "text": "Profesionales altamente calificados. Ahora me siento mucho más seguro.",
         "author": "Carlos R."
       }
     },
     "promotions": {
       "title": "Promociones Especiales",
-      "description": "20% de descuento en todos los tratamientos faciales este mes!",
+      "description": "¡20% de descuento en todos los tratamientos faciales este mes!",
       "cta": "Ver Todas las Ofertas"
     }
   },
@@ -53,7 +53,7 @@
     },
     "work2": {
       "title": "Cirugía Estética",
-      "description": "Transformación asombrosa gracias a nuestra cirugía estética de élite.",
+      "description": "Increíble transformación gracias a nuestra cirugía estética de élite.",
       "date": "Julio 2022"
     },
     "work3": {
@@ -63,8 +63,24 @@
     },
     "work4": {
       "title": "Tratamiento Corporal",
-      "description": "Logra la figura que siempre has deseado con nuestros tratamientos corporales.",
+      "description": "Consigue la figura que siempre has deseado con nuestros tratamientos corporales.",
       "date": "Septiembre 2020"
     }
+  },
+  "metadata": {
+    "title": "Clínica Estética | Tratamientos de Belleza y Medicina Estética",
+    "description": "Descubre los mejores tratamientos estéticos en nuestra clínica. Ofrecemos botox, depilación láser, rejuvenecimiento facial y más. ¡Resultados naturales y profesionales!",
+    "keywords": [
+      "clínica estética",
+      "tratamientos de belleza",
+      "medicina estética",
+      "depilación láser",
+      "botox",
+      "rejuvenecimiento facial",
+      "tratamientos corporales",
+      "cirugía plástica",
+      "clínica de belleza",
+      "centro de estética"
+    ]
   }
 }

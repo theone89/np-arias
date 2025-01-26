@@ -4,6 +4,7 @@ import { MenuIcon, MoonIcon, SunIcon } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
+import Image from 'next'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
@@ -44,8 +45,8 @@ export default function Header() {
           href="/"
           className="text-2xl font-bold text-blue-500 dark:text-blue-400"
         >
-          Logo Clínica
-        </Link>
+          <Image src="" alt="una imagen" width={25}/>
+        </Link>1
         <nav className="hidden md:flex items-center space-x-4">
           <ul className="flex space-x-4">
             <li>

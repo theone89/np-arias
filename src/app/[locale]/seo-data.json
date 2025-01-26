@@ -1,0 +1,155 @@
+{
+    "metadata": {
+      "title": "Clínica Estética | Tratamientos de Belleza y Medicina Estética",
+      "description": "Descubre los mejores tratamientos estéticos en nuestra clínica. Ofrecemos botox, depilación láser, rejuvenecimiento facial y más. ¡Resultados naturales y profesionales!",
+      "keywords": [
+        "clínica estética",
+        "tratamientos de belleza",
+        "medicina estética",
+        "depilación láser",
+        "botox",
+        "rejuvenecimiento facial",
+        "tratamientos corporales",
+        "cirugía plástica",
+        "clínica de belleza",
+        "centro de estética"
+      ],
+      "icons": {
+        "icon": "/favicon.ico"
+      },
+      "openGraph": {
+        "title": "Clínica Estética | Tratamientos de Belleza y Medicina Estética",
+        "description": "Descubre los mejores tratamientos estéticos en nuestra clínica. Ofrecemos botox, depilación láser, rejuvenecimiento facial y más. ¡Resultados naturales y profesionales!",
+        "images": [
+          {
+            "url": "/og-image.jpg",
+            "width": 800,
+            "height": 600,
+            "alt": "Clínica Estética"
+          }
+        ]
+      }
+    },
+    "keywordsByCategory": {
+      "general": [
+        "clínica estética",
+        "centro de belleza",
+        "medicina estética",
+        "tratamientos estéticos",
+        "clínica de belleza",
+        "centro de estética",
+        "cuidado facial profesional",
+        "tratamientos de belleza",
+        "mejor clínica estética",
+        "clínica estética cerca de mí"
+      ],
+      "facial": [
+        "botox",
+        "rellenos faciales",
+        "ácido hialurónico",
+        "tratamiento de arrugas",
+        "lifting facial sin cirugía",
+        "hidratación facial",
+        "peeling químico",
+        "tratamiento para acné",
+        "rejuvenecimiento facial",
+        "dermaplaning"
+      ],
+      "body": [
+        "liposucción sin cirugía",
+        "criolipólisis",
+        "reducción de grasa",
+        "moldeamiento corporal",
+        "tratamiento para celulitis",
+        "presoterapia",
+        "cavitación",
+        "tratamiento para flacidez",
+        "reafirmación corporal",
+        "eliminación de grasa localizada"
+      ],
+      "laserHairRemoval": [
+        "depilación láser",
+        "depilación definitiva",
+        "depilación láser facial",
+        "depilación láser corporal",
+        "depilación láser para hombres",
+        "depilación láser para mujeres",
+        "depilación láser en [ciudad]",
+        "mejor clínica para depilación láser",
+        "depilación láser sin dolor",
+        "depilación láser de última generación"
+      ],
+      "hair": [
+        "tratamiento para la caída del cabello",
+        "plasma rico en plaquetas (PRP) capilar",
+        "mesoterapia capilar",
+        "trasplante capilar",
+        "rejuvenecimiento capilar",
+        "tratamiento para cabello débil",
+        "crecimiento capilar",
+        "tratamiento para caspa",
+        "hidratación capilar",
+        "tratamiento para puntas abiertas"
+      ],
+      "surgery": [
+        "rinoplastia",
+        "aumento de senos",
+        "liposucción",
+        "lifting de glúteos",
+        "cirugía plástica",
+        "blefaroplastia",
+        "abdominoplastia",
+        "reducción de senos",
+        "cirugía estética facial",
+        "cirugía de contorno corporal"
+      ],
+      "skin": [
+        "tratamiento para piel seca",
+        "tratamiento para piel grasa",
+        "tratamiento para piel sensible",
+        "rejuvenecimiento de la piel",
+        "tratamiento para poros abiertos",
+        "limpieza facial profunda",
+        "tratamiento para rosácea",
+        "tratamiento para piel envejecida",
+        "terapia de luz LED",
+        "tratamiento para cicatrices"
+      ],
+      "promotions": [
+        "ofertas en tratamientos estéticos",
+        "promociones de clínica estética",
+        "descuentos en botox",
+        "paquetes de belleza",
+        "tratamientos estéticos económicos",
+        "promoción de depilación láser",
+        "ofertas en rejuvenecimiento facial",
+        "promociones en cirugía estética",
+        "tratamientos estéticos con descuento",
+        "financiamiento para tratamientos estéticos"
+      ],
+      "local": [
+        "clínica estética en [ciudad]",
+        "mejor clínica estética en [ciudad]",
+        "tratamientos estéticos en [ciudad]",
+        "depilación láser en [ciudad]",
+        "botox en [ciudad]",
+        "cirugía plástica en [ciudad]",
+        "rejuvenecimiento facial en [ciudad]",
+        "tratamientos corporales en [ciudad]",
+        "clínica de belleza cerca de mí",
+        "centro de estética en [ciudad]"
+      ],
+      "trust": [
+        "clínica estética certificada",
+        "médicos especialistas en estética",
+        "tecnología de última generación",
+        "resultados naturales",
+        "clínica estética de confianza",
+        "profesionales en medicina estética",
+        "seguridad en tratamientos estéticos",
+        "clínica estética con experiencia",
+        "atención personalizada en estética",
+        "recomendaciones de clínica estética"
+      ]
+    }
+  }
