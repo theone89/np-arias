@@ -46,25 +46,29 @@
     "rights": "Todos los derechos reservados."
   },
   "AfterBefore": {
+    "title": "Resalta tu belleza con los mejores tratamientos estéticos",
+    "subtitle": "Procedimientos seguros y personalizados para",
+    "cta": "Agenda una consulta gratuita",
+    "sliderText": "Desliza para comparar",
     "work1": {
-      "title": "Tratamiento Facial",
-      "description": "Resultado espectacular después de un tratamiento facial rejuvenecedor.",
-      "date": "Marzo 2023"
+      "title": "Proyecto 1",
+      "description": "Una breve descripción del primer proyecto.",
+      "date": "Completado en enero de 2025"
     },
     "work2": {
-      "title": "Cirugía Estética",
-      "description": "Increíble transformación gracias a nuestra cirugía estética de élite.",
-      "date": "Julio 2022"
+      "title": "Proyecto 2",
+      "description": "Una breve descripción del segundo proyecto.",
+      "date": "Completado en febrero de 2025"
     },
     "work3": {
-      "title": "Cuidado de la Piel",
-      "description": "Resultados visibles y duraderos con nuestro programa de cuidado de la piel.",
-      "date": "Noviembre 2021"
+      "title": "Proyecto 3",
+      "description": "Una breve descripción del tercer proyecto.",
+      "date": "Completado en marzo de 2025"
     },
     "work4": {
-      "title": "Tratamiento Corporal",
-      "description": "Consigue la figura que siempre has deseado con nuestros tratamientos corporales.",
-      "date": "Septiembre 2020"
+      "title": "Proyecto 4",
+      "description": "Una breve descripción del cuarto proyecto.",
+      "date": "Completado en abril de 2025"
     }
   },
   "metadata": {

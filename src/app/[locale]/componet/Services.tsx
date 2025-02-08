@@ -42,7 +42,7 @@ export default function Service() {
           {randomImages.map((image, index) => (
             <Card
               key={index}
-              className="bg-gray-50 dark:bg-gray-800 shadow-lg overflow-hidden"
+              className="bg-custom-terracotta-100 dark:bg-gray-800 shadow-xl overflow-hidden"
             >
               <Image
                 src={image.src.medium}

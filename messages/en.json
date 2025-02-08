@@ -46,25 +46,29 @@
     "rights": "All rights reserved."
   },
   "AfterBefore": {
+    "title": "Enhance your beauty with the best aesthetic treatments",
+    "subtitle": "Safe and personalized procedures for",
+    "cta": "Book a free consultation",
+    "sliderText": "Swipe to compare",
     "work1": {
-      "title": "Facial Treatment",
-      "description": "Spectacular result after a rejuvenating facial treatment.",
-      "date": "March 2023"
+      "title": "Project 1",
+      "description": "A brief description of the first project.",
+      "date": "Completed on January 2025"
     },
     "work2": {
-      "title": "Cosmetic Surgery",
-      "description": "Amazing transformation thanks to our elite cosmetic surgery.",
-      "date": "July 2022"
+      "title": "Project 2",
+      "description": "A brief description of the second project.",
+      "date": "Completed on February 2025"
     },
     "work3": {
-      "title": "Skin Care",
-      "description": "Visible and lasting results with our skin care program.",
-      "date": "November 2021"
+      "title": "Project 3",
+      "description": "A brief description of the third project.",
+      "date": "Completed on March 2025"
     },
     "work4": {
-      "title": "Body Treatment",
-      "description": "Achieve the figure you've always wanted with our body treatments.",
-      "date": "September 2020"
+      "title": "Project 4",
+      "description": "A brief description of the fourth project.",
+      "date": "Completed on April 2025"
     }
   },
   "metadata": {
