@@ -71,6 +71,21 @@
       "date": "Completed on April 2025"
     }
   },
+  "Schedule": {
+    "title": "Schedule a Free Consultation",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "Your email",
+    "phonePlaceholder": "Your phone number",
+    "datePlaceholder": "Select a date",
+    "cta": "Book Appointment",
+    "loading": "Sending...",
+    "successMessage": "Your appointment has been successfully scheduled. Check your email for details.",
+    "errorMessage": "There was an error submitting the request. Please try again."
+  },
+  "SchedulerConsultation": {
+    "title": "Unlock Your Perfect Appointment!",
+    "cta": "Book Now and Secure Your Spot!"
+  },
   "metadata": {
     "title": "Aesthetic Clinic | Beauty and Aesthetic Medicine Treatments",
     "description": "Discover the best aesthetic treatments at our clinic. We offer botox, laser hair removal, facial rejuvenation, and more. Natural and professional results!",
