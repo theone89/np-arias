@@ -23,7 +23,7 @@ function CustomButton({ children, ...props }: CustomButtonProps) {
   return (
     <button
       {...props}
-      className="bg-custom-gold-500 hover:bg-custom-gold-600 text-white font-bold py-2 px-4 rounded w-full"
+      className="bg-custom-gold-500 hover:bg-custom-gold-600 text-white font-bold py-2 px-4 rounded w-full transition-colors duration-300"
     >
       {children}
     </button>
@@ -41,9 +41,14 @@ type CustomInputProps = {
 
 function CustomInput({ icon: Icon, ...props }: CustomInputProps) {
   return (
-    <div className="flex items-center border border-custom-gold-300 rounded px-3 py-2">
-      {Icon && <Icon className="text-custom-gold-500 mr-2" />}
-      <input {...props} className="w-full focus:outline-none bg-transparent" />
+    <div className="flex items-center border border-custom-gold-300 dark:border-custom-gold-600 rounded px-3 py-2 bg-white dark:bg-custom-brown-800 transition-all duration-300">
+      {Icon && (
+        <Icon className="text-custom-gold-500 dark:text-custom-gold-400 mr-2" />
+      )}
+      <input
+        {...props}
+        className="w-full focus:outline-none bg-transparent text-custom-brown-800 dark:text-custom-ivory-100"
+      />
     </div>
   );
 }
@@ -54,7 +59,7 @@ type CustomCardProps = {
 
 function CustomCard({ children }: CustomCardProps) {
   return (
-    <div className="bg-custom-ivory-100 rounded-xl shadow-2xl p-6 ">
+    <div className="bg-custom-ivory-100   dark:bg-custom-brown-900 rounded-xl shadow-2xl p-6 transition-all duration-300">
       {children}
     </div>
   );
@@ -106,13 +111,9 @@ export default function ScheduleAppointment() {
   };
 
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      className="p-6 max-w-md mx-auto"
-    >
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className=" ">
       <CustomCard>
-        <h2 className="text-xl font-bold text-custom-brown-700 mb-4">
+        <h2 className="text-xl font-bold text-custom-brown-700 dark:text-custom-ivory-100 mb-4">
           {t("title")}
         </h2>
         <form onSubmit={handleSubmit} className="space-y-4">
