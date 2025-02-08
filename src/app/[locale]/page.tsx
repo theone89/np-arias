@@ -1,11 +1,8 @@
 import { useTranslations } from "next-intl";
 import { AfterBefore } from "@/components/component/after-before";
-
-import Header from "./componet/Header";
 import Banner from "./componet/Banner";
 import Testimonial from "./componet/Testimonial";
 import Promotion from "./componet/Promotion";
-import Footer from "./componet/Footer";
 import Service from "./componet/Services";
 
 const HomePage: React.FC = () => {
@@ -13,8 +10,6 @@ const HomePage: React.FC = () => {
 
   return (
     <div className="flex flex-col min-h-screen bg-custom-teal-500 dark:bg-gray-900 transition-colors duration-200">
-      <Header />
-
       <main className="flex-grow">
         <section>
           <Banner />
@@ -33,8 +28,6 @@ const HomePage: React.FC = () => {
           <Promotion />
         </section>
       </main>
-
-      <Footer />
     </div>
   );
 };

@@ -1,11 +1,12 @@
 "use client";
 import { Button } from "@/components/ui/button";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 import React from "react";
 
 export default function Banner() {
   const t = useTranslations();
+  const locale = useLocale();
   return (
     <section
       className="relative flex items-center justify-center bg-gray-100 dark:bg-gray-100 py-20"
@@ -36,7 +37,7 @@ export default function Banner() {
           className="mt-6 rounded-lg bg-custom-gold-500 px-6 py-3 text-lg font-semibold text-white shadow-md transition duration-300 hover:bg-custom-gold-600 focus:outline-none focus:ring-4 focus:ring-custom-gold-300"
           asChild
         >
-          <Link href="/reservas">{t("cta.bookAppointment")}</Link>
+          <Link href={`${locale}/schedule`}>{t("cta.bookAppointment")}</Link>
         </Button>
       </div>
     </section>

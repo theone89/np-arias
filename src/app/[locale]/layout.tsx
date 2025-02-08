@@ -2,6 +2,8 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import "../globals.css";
 import { getTranslations } from "next-intl/server";
+import Navbar from "./componet/Navbar";
+import Footer from "./componet/Footer";
 
 interface GenerateMetadataProps {
   params: {
@@ -51,7 +53,9 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body className="">
         <NextIntlClientProvider messages={messages}>
+          <Navbar />
           {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>
