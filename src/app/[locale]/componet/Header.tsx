@@ -45,41 +45,50 @@ export default function Header() {
       document.documentElement.classList.remove("dark");
     }
   }, [darkMode]);
+
   return (
     <header
       className={`sticky top-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? "bg-white/80 dark:bg-gray-800/80 backdrop-blur-md shadow-md"
-          : "bg-white dark:bg-gray-800"
+          ? "bg-custom-ivory-100 dark:bg-custom-terracotta-900/80 backdrop-blur-md shadow-md"
+          : "bg-custom-ivory-100 dark:bg-custom-terracotta-900"
       }`}
     >
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link
-          href="/"
-          className="text-2xl items-center font-bold flex space-x-2 text-center flex-rows text-black dark:text-blue-400"
-        >
-          <Image
-            src={"/assets/images/lp icono.webp"}
-            alt=""
-            width={35}
-            height={35}
-            quality={100}
-            className="items-center "
-          />
-          <div className="items-start">
-            <p className={`${corinthia.className} text-md font-bold`}>
-              Aesthetic
-            </p>
-            <p className={`${notoSans.className} text-xs -mt-2`}>& wellness</p>
-          </div>
-        </Link>
+      <div className="container mx-auto px-4 py-4  flex justify-between items-center">
+        <div className=" p-2 rounded-lg ">
+          <Link
+            href="/"
+            className="text-2xl items-center font-bold flex space-x-2 text-center flex-rows text-custom-brown-900 dark:text-custom-ivory-100"
+          >
+            <Image
+              src={"/assets/images/lp icono.webp"}
+              alt=""
+              width={35}
+              height={35}
+              quality={100}
+              className="items-center"
+            />
+            <div className="items-start">
+              <p
+                className={`${corinthia.className} text-md font-bold text-custom-gold-500 dark:text-custom-gold-300`}
+              >
+                Aesthetic
+              </p>
+              <p
+                className={`${notoSans.className} text-xs -mt-2 text-custom-brown-700 dark:text-custom-ivory-200`}
+              >
+                & wellness
+              </p>
+            </div>
+          </Link>
+        </div>
 
         <nav className="hidden md:flex items-center space-x-4">
           <ul className="flex space-x-4">
             <li>
               <Link
                 href="/sobre-nosotros"
-                className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                className="text-custom-brown-700 dark:text-gray-300 hover:text-custom-teal-500 dark:hover:text-custom-teal-400"
               >
                 {t("navigation.about")}
               </Link>
@@ -87,7 +96,7 @@ export default function Header() {
             <li>
               <Link
                 href="/servicios"
-                className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                className="text-custom-brown-700 dark:text-gray-300 hover:text-custom-teal-500 dark:hover:text-custom-teal-400"
               >
                 {t("navigation.services")}
               </Link>
@@ -95,7 +104,7 @@ export default function Header() {
             <li>
               <Link
                 href="/testimonios"
-                className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                className="text-custom-brown-700 dark:text-gray-300 hover:text-custom-teal-500 dark:hover:text-custom-teal-400"
               >
                 {t("navigation.testimonials")}
               </Link>
@@ -103,7 +112,7 @@ export default function Header() {
             <li>
               <Link
                 href="/blog"
-                className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                className="text-custom-brown-700 dark:text-gray-300 hover:text-custom-teal-500 dark:hover:text-custom-teal-400"
               >
                 {t("navigation.blog")}
               </Link>
@@ -111,32 +120,32 @@ export default function Header() {
             <li>
               <Link
                 href="/contacto"
-                className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                className="text-custom-brown-700 dark:text-gray-300 hover:text-custom-teal-500 dark:hover:text-custom-teal-400"
               >
                 {t("navigation.contact")}
               </Link>
             </li>
           </ul>
           <Button
-            className=" rounded-lg bg-custom-gold-500 px-6 py-3 text-lg font-semibold text-white shadow-md transition duration-300 hover:bg-custom-gold-600 focus:outline-none focus:ring-4 focus:ring-custom-gold-300"
+            className="rounded-lg bg-custom-gold-500 px-6 py-3 text-lg font-semibold text-white shadow-md transition duration-300 hover:bg-custom-gold-600 focus:outline-none focus:ring-4 focus:ring-custom-gold-300"
             asChild
           >
             <Link href="/reservas">{t("cta.bookAppointment")}</Link>
           </Button>
           <button
             onClick={() => setDarkMode(!darkMode)}
-            className="p-2 rounded-full bg-gray-200 dark:bg-gray-700"
+            className="p-2 rounded-full bg-custom-ivory-200 dark:bg-custom-brown-600"
             aria-label={darkMode ? t("darkMode.light") : t("darkMode.dark")}
           >
             {darkMode ? (
               <SunIcon className="h-5 w-5 text-yellow-500" />
             ) : (
-              <MoonIcon className="h-5 w-5 text-gray-700" />
+              <MoonIcon className="h-5 w-5 text-custom-brown-700" />
             )}
           </button>
         </nav>
         <button
-          className="md:hidden text-gray-700 dark:text-gray-300"
+          className="md:hidden text-custom-brown-700 dark:text-gray-300"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           aria-label="Abrir menú"
         >
@@ -144,13 +153,13 @@ export default function Header() {
         </button>
       </div>
       {isMenuOpen && (
-        <div className="md:hidden bg-white dark:bg-gray-800 py-2">
+        <div className="md:hidden bg-custom-ivory-100 dark:bg-gray-800 py-2">
           <nav className="container mx-auto px-4">
             <ul className="space-y-2">
               <li>
                 <Link
                   href="/sobre-nosotros"
-                  className="block text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                  className="block text-custom-brown-700 dark:text-gray-300 hover:text-custom-teal-500 dark:hover:text-custom-teal-400"
                 >
                   {t("navigation.about")}
                 </Link>
@@ -158,7 +167,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/servicios"
-                  className="block text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                  className="block text-custom-brown-700 dark:text-gray-300 hover:text-custom-teal-500 dark:hover:text-custom-teal-400"
                 >
                   {t("navigation.services")}
                 </Link>
@@ -166,7 +175,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/testimonios"
-                  className="block text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                  className="block text-custom-brown-700 dark:text-gray-300 hover:text-custom-teal-500 dark:hover:text-custom-teal-400"
                 >
                   {t("navigation.testimonials")}
                 </Link>
@@ -174,7 +183,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/blog"
-                  className="block text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                  className="block text-custom-brown-700 dark:text-gray-300 hover:text-custom-teal-500 dark:hover:text-custom-teal-400"
                 >
                   {t("navigation.blog")}
                 </Link>
@@ -182,14 +191,14 @@ export default function Header() {
               <li>
                 <Link
                   href="/contacto"
-                  className="block text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                  className="block text-custom-brown-700 dark:text-gray-300 hover:text-custom-teal-500 dark:hover:text-custom-teal-400"
                 >
                   {t("navigation.contact")}
                 </Link>
               </li>
               <li>
                 <Button
-                  className="w-full mt-2 bg-blue-500 text-white hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700"
+                  className="w-full mt-2 bg-custom-teal-500 text-white hover:bg-custom-teal-600 dark:bg-custom-teal-600 dark:hover:bg-custom-teal-700"
                   asChild
                 >
                   <Link href="/reservas">{t("cta.bookAppointment")}</Link>
@@ -198,7 +207,7 @@ export default function Header() {
               <li>
                 <button
                   onClick={() => setDarkMode(!darkMode)}
-                  className="w-full mt-2 p-2 rounded-md bg-gray-200 dark:bg-gray-700 flex items-center justify-center"
+                  className="w-full mt-2 p-2 rounded-md bg-custom-ivory-200 dark:bg-custom-brown-600 flex items-center justify-center"
                   aria-label={
                     darkMode ? t("darkMode.light") : t("darkMode.dark")
                   }
@@ -206,7 +215,7 @@ export default function Header() {
                   {darkMode ? (
                     <SunIcon className="h-5 w-5 text-yellow-500 mr-2" />
                   ) : (
-                    <MoonIcon className="h-5 w-5 text-gray-700 mr-2" />
+                    <MoonIcon className="h-5 w-5 text-custom-brown-700 mr-2" />
                   )}
                   {darkMode ? t("darkMode.light") : t("darkMode.dark")}
                 </button>
