@@ -71,6 +71,21 @@
       "date": "Completado en abril de 2025"
     }
   },
+  "Schedule": {
+    "title": "Agenda una consulta gratuita",
+    "namePlaceholder": "Tu nombre",
+    "emailPlaceholder": "Tu correo electrónico",
+    "phonePlaceholder": "Tu número de teléfono",
+    "datePlaceholder": "Selecciona una fecha",
+    "cta": "Agendar cita",
+    "loading": "Enviando...",
+    "successMessage": "Tu cita ha sido agendada con éxito. Revisa tu correo para más detalles.",
+    "errorMessage": "Hubo un error al enviar la solicitud. Inténtalo de nuevo."
+  },
+  "SchedulerConsultation": {
+    "title": "¡Reserva tu cita perfecta!",
+    "cta": "Agenda ahora y asegura tu lugar!"
+  },
   "metadata": {
     "title": "Clínica Estética | Tratamientos de Belleza y Medicina Estética",
     "description": "Descubre los mejores tratamientos estéticos en nuestra clínica. Ofrecemos botox, depilación láser, rejuvenecimiento facial y más. ¡Resultados naturales y profesionales!",
