@@ -118,7 +118,7 @@ export default function Header() {
             </li>
           </ul>
           <Button
-            className="bg-blue-500 text-white hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700"
+            className=" rounded-lg bg-custom-gold-500 px-6 py-3 text-lg font-semibold text-white shadow-md transition duration-300 hover:bg-custom-gold-600 focus:outline-none focus:ring-4 focus:ring-custom-gold-300"
             asChild
           >
             <Link href="/reservas">{t("cta.bookAppointment")}</Link>

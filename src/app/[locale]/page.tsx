@@ -12,18 +12,19 @@ const HomePage: React.FC = () => {
   const t = useTranslations();
 
   return (
-    <div className="flex flex-col min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-200">
+    <div className="flex flex-col min-h-screen bg-custom-teal-500 dark:bg-gray-900 transition-colors duration-200">
       <Header />
 
       <main className="flex-grow">
         <section>
           <Banner />
         </section>
-        <section>
-          <Service />
-        </section>
+
         <section>
           <AfterBefore />
+        </section>
+        <section>
+          <Service />
         </section>
         <section>
           <Testimonial />
