@@ -11,7 +11,8 @@
     "contact": "Contact"
   },
   "cta": {
-    "bookAppointment": "Book Appointment"
+    "bookAppointment": "Book Appointment",
+    "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
   },
   "home": {
     "welcome": "Welcome to Our Aesthetic Clinic",
@@ -23,19 +24,23 @@
         "services": [
           {
             "name": "Deep Cleansing",
-            "description": "Eliminate impurities and revitalize your skin."
+            "description": "Eliminate impurities and revitalize your skin.",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           },
           {
             "name": "Chemical Peels",
-            "description": "Renew your skin and reduce imperfections."
+            "description": "Renew your skin and reduce imperfections.",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           },
           {
             "name": "Microdermabrasion",
-            "description": "Exfoliate and improve skin texture."
+            "description": "Exfoliate and improve skin texture.",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment3"
           },
           {
             "name": "Hydration & Nutrition",
-            "description": "Provides deep hydration and nourishment."
+            "description": "Provides deep hydration and nourishment.",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment4"
           }
         ]
       },
@@ -44,15 +49,18 @@
         "services": [
           {
             "name": "Botox for Wrinkles",
-            "description": "Reduces expression lines and wrinkles."
+            "description": "Reduces expression lines and wrinkles.",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment5"
           },
           {
             "name": "Dermal Fillers",
-            "description": "Restores volume and smooths the skin."
+            "description": "Restores volume and smooths the skin.",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment6"
           },
           {
             "name": "Facial Mesotherapy",
-            "description": "Stimulates cell regeneration."
+            "description": "Stimulates cell regeneration.",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment7"
           }
         ]
       },
@@ -61,15 +69,18 @@
         "services": [
           {
             "name": "Localized Fat Reduction",
-            "description": "Eliminates fat in specific areas."
+            "description": "Eliminates fat in specific areas.",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment8"
           },
           {
             "name": "Cryolipolysis",
-            "description": "Non-invasive fat elimination treatment."
+            "description": "Non-invasive fat elimination treatment.",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment9"
           },
           {
             "name": "Relaxing Massages",
-            "description": "Relaxes and tones your body."
+            "description": "Relaxes and tones your body.",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment10"
           }
         ]
       },
@@ -78,7 +89,8 @@
         "services": [
           {
             "name": "Laser Hair Removal",
-            "description": "Permanent removal of unwanted hair."
+            "description": "Permanent removal of unwanted hair.",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment11"
           }
         ]
       },
@@ -87,15 +99,18 @@
         "services": [
           {
             "name": "Laser Therapies",
-            "description": "Stimulates collagen production."
+            "description": "Stimulates collagen production.",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment12"
           },
           {
             "name": "Non-Surgical Lifting",
-            "description": "Tightens the skin without surgery."
+            "description": "Tightens the skin without surgery.",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment13"
           },
           {
             "name": "Acne & Spot Treatments",
-            "description": "Improves skin tone and texture."
+            "description": "Improves skin tone and texture.",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment14"
           }
         ]
       }
@@ -128,24 +143,24 @@
     "cta": "Book a Free Consultation",
     "sliderText": "Swipe to compare",
     "work1": {
-      "title": "Project 1",
-      "description": "A brief description of the first project.",
-      "date": "Completed in January 2025"
+      "title": "Facial Rejuvenation",
+      "description": "Advanced treatment to improve skin texture and radiance.",
+      "date": "Available all year round"
     },
     "work2": {
-      "title": "Project 2",
-      "description": "A brief description of the second project.",
-      "date": "Completed in February 2025"
+      "title": "Laser Hair Removal",
+      "description": "Removal of unwanted hair with state-of-the-art laser technology.",
+      "date": "Special promotion in February 2025"
     },
     "work3": {
-      "title": "Project 3",
-      "description": "A brief description of the third project.",
-      "date": "Completed in March 2025"
+      "title": "Body Slimming Therapy",
+      "description": "Body treatments for fat reduction and toning.",
+      "date": "New sessions available in March 2025"
     },
     "work4": {
-      "title": "Project 4",
-      "description": "A brief description of the fourth project.",
-      "date": "Completed in April 2025"
+      "title": "Botox Application",
+      "description": "Safe and effective procedure to reduce expression lines.",
+      "date": "Free consultation in April 2025"
     }
   },
   "Schedule": {
