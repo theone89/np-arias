@@ -15,13 +15,90 @@
   },
   "home": {
     "welcome": "Welcome to Our Aesthetic Clinic",
-    "subtitle": "Discover the best version of yourself",
+    "subtitle": "Discover the Best Version of Yourself",
     "services": {
       "title": "Our Services",
-      "facialTreatments": "Facial Treatments",
-      "cosmeticSurgery": "Cosmetic Surgery",
-      "skinCare": "Skin Care",
-      "description": "Brief description of the service and its benefits for clients."
+      "tratamientosFaciales": {
+        "title": "Facial Treatments",
+        "services": [
+          {
+            "name": "Deep Cleansing",
+            "description": "Eliminate impurities and revitalize your skin."
+          },
+          {
+            "name": "Chemical Peels",
+            "description": "Renew your skin and reduce imperfections."
+          },
+          {
+            "name": "Microdermabrasion",
+            "description": "Exfoliate and improve skin texture."
+          },
+          {
+            "name": "Hydration & Nutrition",
+            "description": "Provides deep hydration and nourishment."
+          }
+        ]
+      },
+      "inyeccionesYRellenos": {
+        "title": "Injections and Fillers",
+        "services": [
+          {
+            "name": "Botox for Wrinkles",
+            "description": "Reduces expression lines and wrinkles."
+          },
+          {
+            "name": "Dermal Fillers",
+            "description": "Restores volume and smooths the skin."
+          },
+          {
+            "name": "Facial Mesotherapy",
+            "description": "Stimulates cell regeneration."
+          }
+        ]
+      },
+      "tratamientosCorporales": {
+        "title": "Body Treatments",
+        "services": [
+          {
+            "name": "Localized Fat Reduction",
+            "description": "Eliminates fat in specific areas."
+          },
+          {
+            "name": "Cryolipolysis",
+            "description": "Non-invasive fat elimination treatment."
+          },
+          {
+            "name": "Relaxing Massages",
+            "description": "Relaxes and tones your body."
+          }
+        ]
+      },
+      "depilacionLaser": {
+        "title": "Laser Hair Removal",
+        "services": [
+          {
+            "name": "Laser Hair Removal",
+            "description": "Permanent removal of unwanted hair."
+          }
+        ]
+      },
+      "rejuvenecimientoYAntiEnvejecimiento": {
+        "title": "Rejuvenation and Anti-Aging",
+        "services": [
+          {
+            "name": "Laser Therapies",
+            "description": "Stimulates collagen production."
+          },
+          {
+            "name": "Non-Surgical Lifting",
+            "description": "Tightens the skin without surgery."
+          },
+          {
+            "name": "Acne & Spot Treatments",
+            "description": "Improves skin tone and texture."
+          }
+        ]
+      }
     },
     "testimonials": {
       "title": "What Our Clients Say",
@@ -46,29 +123,29 @@
     "rights": "All rights reserved."
   },
   "AfterBefore": {
-    "title": "Enhance your beauty with the best aesthetic treatments",
+    "title": "Enhance Your Beauty with the Best Aesthetic Treatments",
     "subtitle": "Safe and personalized procedures for",
-    "cta": "Book a free consultation",
+    "cta": "Book a Free Consultation",
     "sliderText": "Swipe to compare",
     "work1": {
       "title": "Project 1",
       "description": "A brief description of the first project.",
-      "date": "Completed on January 2025"
+      "date": "Completed in January 2025"
     },
     "work2": {
       "title": "Project 2",
       "description": "A brief description of the second project.",
-      "date": "Completed on February 2025"
+      "date": "Completed in February 2025"
     },
     "work3": {
       "title": "Project 3",
       "description": "A brief description of the third project.",
-      "date": "Completed on March 2025"
+      "date": "Completed in March 2025"
     },
     "work4": {
       "title": "Project 4",
       "description": "A brief description of the fourth project.",
-      "date": "Completed on April 2025"
+      "date": "Completed in April 2025"
     }
   },
   "Schedule": {
@@ -89,6 +166,6 @@
   "metadata": {
     "title": "Aesthetic Clinic | Beauty and Aesthetic Medicine Treatments",
     "description": "Discover the best aesthetic treatments at our clinic. We offer botox, laser hair removal, facial rejuvenation, and more. Natural and professional results!",
-    "keywords": "aesthetic clinic ,beauty treatments ,aesthetic medicine ,laser hair removal ,botox ,facial rejuvenation ,body treatments ,plastic surgery ,beauty clinic ,aesthetic center"
+    "keywords": "aesthetic clinic, beauty treatments, aesthetic medicine, laser hair removal, botox, facial rejuvenation, body treatments, plastic surgery, beauty clinic, aesthetic center"
   }
 }

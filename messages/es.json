@@ -14,23 +14,100 @@
     "bookAppointment": "Reservar Cita"
   },
   "home": {
-    "welcome": "Bienvenido a Nuestra Clínica Estética",
-    "subtitle": "Descubre la mejor versión de ti mismo",
+    "welcome": "Bienvenidos a Nuestra Clínica Estética",
+    "subtitle": "Descubre la Mejor Versión de Ti",
     "services": {
       "title": "Nuestros Servicios",
-      "facialTreatments": "Tratamientos Faciales",
-      "cosmeticSurgery": "Cirugía Estética",
-      "skinCare": "Cuidado de la Piel",
-      "description": "Breve descripción del servicio y sus beneficios para los clientes."
+      "tratamientosFaciales": {
+        "title": "Tratamientos Faciales",
+        "services": [
+          {
+            "name": "Limpieza Profunda",
+            "description": "Elimina impurezas y revitaliza tu piel."
+          },
+          {
+            "name": "Peelings Químicos",
+            "description": "Renueva tu piel y reduce imperfecciones."
+          },
+          {
+            "name": "Microdermoabrasión",
+            "description": "Exfolia y mejora la textura de la piel."
+          },
+          {
+            "name": "Hidratación y Nutrición",
+            "description": "Proporciona hidratación y nutrición profunda."
+          }
+        ]
+      },
+      "inyeccionesYRellenos": {
+        "title": "Inyecciones y Rellenos",
+        "services": [
+          {
+            "name": "Botox para Arrugas",
+            "description": "Reduce líneas de expresión y arrugas."
+          },
+          {
+            "name": "Rellenos Dérmicos",
+            "description": "Restaura volumen y suaviza la piel."
+          },
+          {
+            "name": "Mesoterapia Facial",
+            "description": "Estimula la regeneración celular."
+          }
+        ]
+      },
+      "tratamientosCorporales": {
+        "title": "Tratamientos Corporales",
+        "services": [
+          {
+            "name": "Reducción de Grasa Localizada",
+            "description": "Elimina grasa en áreas específicas."
+          },
+          {
+            "name": "Criolipólisis",
+            "description": "Tratamiento no invasivo para eliminar grasa."
+          },
+          {
+            "name": "Masajes Relajantes",
+            "description": "Relaja y tonifica tu cuerpo."
+          }
+        ]
+      },
+      "depilacionLaser": {
+        "title": "Depilación Láser",
+        "services": [
+          {
+            "name": "Depilación Láser",
+            "description": "Eliminación permanente del vello no deseado."
+          }
+        ]
+      },
+      "rejuvenecimientoYAntiEnvejecimiento": {
+        "title": "Rejuvenecimiento y Antienvejecimiento",
+        "services": [
+          {
+            "name": "Terapias Láser",
+            "description": "Estimula la producción de colágeno."
+          },
+          {
+            "name": "Lifting sin Cirugía",
+            "description": "Reafirma la piel sin cirugía."
+          },
+          {
+            "name": "Tratamientos para Acné y Manchas",
+            "description": "Mejora el tono y la textura de la piel."
+          }
+        ]
+      }
     },
     "testimonials": {
       "title": "Lo Que Dicen Nuestros Clientes",
       "testimonial1": {
-        "text": "Excelente atención y resultados increíbles. ¡Muy recomendado!",
+        "text": "Atención excelente y resultados increíbles. ¡Muy recomendado!",
         "author": "María G."
       },
       "testimonial2": {
-        "text": "Profesionales altamente calificados. Ahora me siento mucho más seguro.",
+        "text": "Profesionales altamente calificados. Ahora me siento mucho más segura.",
         "author": "Carlos R."
       }
     },
@@ -46,9 +123,9 @@
     "rights": "Todos los derechos reservados."
   },
   "AfterBefore": {
-    "title": "Resalta tu belleza con los mejores tratamientos estéticos",
+    "title": "Realza Tu Belleza con los Mejores Tratamientos Estéticos",
     "subtitle": "Procedimientos seguros y personalizados para",
-    "cta": "Agenda una consulta gratuita",
+    "cta": "Reserva una Consulta Gratis",
     "sliderText": "Desliza para comparar",
     "work1": {
       "title": "Proyecto 1",
@@ -72,23 +149,23 @@
     }
   },
   "Schedule": {
-    "title": "Agenda una consulta gratuita",
+    "title": "Agenda una Consulta Gratuita",
     "namePlaceholder": "Tu nombre",
     "emailPlaceholder": "Tu correo electrónico",
     "phonePlaceholder": "Tu número de teléfono",
     "datePlaceholder": "Selecciona una fecha",
-    "cta": "Agendar cita",
+    "cta": "Reservar Cita",
     "loading": "Enviando...",
-    "successMessage": "Tu cita ha sido agendada con éxito. Revisa tu correo para más detalles.",
-    "errorMessage": "Hubo un error al enviar la solicitud. Inténtalo de nuevo."
+    "successMessage": "Tu cita ha sido programada con éxito. Revisa tu correo para más detalles.",
+    "errorMessage": "Hubo un error al enviar la solicitud. Por favor, inténtalo de nuevo."
   },
   "SchedulerConsultation": {
-    "title": "¡Reserva tu cita perfecta!",
-    "cta": "Agenda ahora y asegura tu lugar!"
+    "title": "¡Consigue Tu Cita Perfecta!",
+    "cta": "¡Reserva Ahora y Asegura Tu Lugar!"
   },
   "metadata": {
     "title": "Clínica Estética | Tratamientos de Belleza y Medicina Estética",
     "description": "Descubre los mejores tratamientos estéticos en nuestra clínica. Ofrecemos botox, depilación láser, rejuvenecimiento facial y más. ¡Resultados naturales y profesionales!",
-    "keywords": "clínica estética, tratamientos de belleza, medicina estética, depilación láser, botox, rejuvenecimiento facial, tratamientos corporales, cirugía plástica, clínica de belleza, centro de estética"
+    "keywords": "clínica estética, tratamientos de belleza, medicina estética, depilación láser, botox, rejuvenecimiento facial, tratamientos corporales, cirugía estética, centro de belleza, centro estético"
   }
 }
