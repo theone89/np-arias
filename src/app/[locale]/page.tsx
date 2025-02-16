@@ -1,9 +1,9 @@
 import { useTranslations } from "next-intl";
 import { AfterBefore } from "@/components/component/after-before";
-import Banner from "./componet/Banner";
-import Testimonial from "./componet/Testimonial";
-import Promotion from "./componet/Promotion";
-import Service from "./componet/Services";
+import Banner from "./components/Banner";
+import Testimonial from "./components/Testimonial";
+import Promotion from "./components/Promotion";
+import Service from "./components/Services";
 
 const HomePage: React.FC = () => {
   const t = useTranslations();

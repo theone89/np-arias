@@ -76,7 +76,7 @@ export function AfterBefore() {
               transition={{ duration: 0.5, delay: index * 0.2 }}
               className="flex flex-col items-center shadow-2xl rounded-lg bg-custom-ivory-100 border-custom-gold-500 border-spacing-2 border-2 dark:bg-custom-terracotta-200 p-6 shadow-custom-ivory-700 transition-transform duration-300 ease-in-out hover:-translate-y-2 md:flex-row"
             >
-              <div className="md:w-1/2">
+              <div className="md:w-1/2 w-full ">
                 <ReactCompareImage
                   leftImage={image.before}
                   rightImage={image.after}

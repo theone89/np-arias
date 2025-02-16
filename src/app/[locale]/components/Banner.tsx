@@ -11,7 +11,7 @@ export default function Banner() {
     <section
       className="relative flex items-center justify-center bg-gray-100 dark:bg-gray-100 py-20"
       style={{
-        backgroundImage: "url('/assets/images/lisbet.jpg')",
+        backgroundImage: "url('/assets/images/lisbet.PNG')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",

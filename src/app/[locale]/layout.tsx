@@ -2,8 +2,8 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import "../globals.css";
 import { getTranslations } from "next-intl/server";
-import Navbar from "./componet/Navbar";
-import Footer from "./componet/Footer";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 interface GenerateMetadataProps {
   params: {

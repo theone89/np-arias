@@ -6,6 +6,7 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { Corinthia, Noto_Sans } from "next/font/google";
+import { usePathname } from "next/navigation";
 
 const corinthia = Corinthia({ subsets: ["latin"], weight: ["700"] });
 const notoSans = Noto_Sans({ subsets: ["latin"], weight: ["400"] });
@@ -16,6 +17,7 @@ export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState<boolean>(false);
   const locale = useLocale();
   const t = useTranslations();
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -59,7 +61,7 @@ export default function Navbar() {
               <p
                 className={`${corinthia.className} text-md font-bold text-custom-gold-500 dark:text-custom-gold-300`}
               >
-                Aesthetic
+                Aesthetics
               </p>
               <p
                 className={`${notoSans.className} text-xs -mt-2 text-custom-brown-700 dark:text-custom-ivory-200`}
@@ -86,9 +88,13 @@ export default function Navbar() {
               )
             )}
           </ul>
-          <Button className="rounded-lg bg-custom-gold-500 px-6 py-3 text-lg font-semibold text-white shadow-md transition duration-300 hover:bg-custom-gold-600">
-            <Link href={`${locale}/schedule`}>{t("cta.bookAppointment")}</Link>
-          </Button>
+          {pathname !== `/${locale}/schedule` && (
+            <Button className="rounded-lg bg-custom-gold-500 px-6 py-3 text-lg font-semibold text-white shadow-md transition duration-300 hover:bg-custom-gold-600">
+              <Link href={`/${locale}/schedule`}>
+                {t("cta.bookAppointment")}
+              </Link>
+            </Button>
+          )}
           <button
             onClick={() => setDarkMode(!darkMode)}
             className="p-2 rounded-full bg-custom-ivory-200 dark:bg-custom-brown-600"
@@ -130,11 +136,13 @@ export default function Navbar() {
                 )
               )}
               <li>
-                <Button className="w-full mt-2 bg-custom-teal-500 text-white hover:bg-custom-teal-600 dark:bg-custom-teal-600 dark:hover:bg-custom-teal-700">
-                  <Link href={`${locale}/schedule`}>
-                    {t("cta.bookAppointment")}
-                  </Link>
-                </Button>
+                {pathname !== `/${locale}/schedule` && (
+                  <Button className="w-full mt-2 bg-custom-teal-500 text-white hover:bg-custom-teal-600 dark:bg-custom-teal-600 dark:hover:bg-custom-teal-700">
+                    <Link href={`/${locale}/schedule`}>
+                      {t("cta.bookAppointment")}
+                    </Link>
+                  </Button>
+                )}
               </li>
               <li>
                 <button
