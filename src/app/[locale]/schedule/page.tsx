@@ -29,12 +29,12 @@ export default function Home() {
         </div>
         <div
           className="w-full lg:w-1/2 h-screen bg-cover bg-center relative"
-          style={{ backgroundImage: "url('/assets/images/lisbet.jpg')" }}
+          style={{ backgroundImage: "url('/assets/images/lisbet.PNG')" }}
         ></div>
       </div>
       <div
         className="flex lg:hidden md:min-h-screenelative bg-cover bg-center p-6"
-        style={{ backgroundImage: "url('/assets/images/lisbet.jpg')" }}
+        style={{ backgroundImage: "url('/assets/images/lisbet.PNG')" }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-60"></div>
 

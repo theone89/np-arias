@@ -61,7 +61,7 @@ export default function Navbar() {
               <p
                 className={`${corinthia.className} text-md font-bold text-custom-gold-500 dark:text-custom-gold-300`}
               >
-                Aesthetic
+                Aesthetics
               </p>
               <p
                 className={`${notoSans.className} text-xs -mt-2 text-custom-brown-700 dark:text-custom-ivory-200`}
