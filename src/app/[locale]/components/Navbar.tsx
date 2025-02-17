@@ -79,7 +79,7 @@ export default function Navbar() {
               (item) => (
                 <li key={item}>
                   <Link
-                    href={`/${item === "about" ? "sobre-nosotros" : item}`}
+                    href={`/#`}
                     className="text-custom-brown-700 dark:text-gray-300 hover:text-custom-teal-500 dark:hover:text-custom-teal-400"
                   >
                     {t(`navigation.${item}`)}
@@ -90,7 +90,9 @@ export default function Navbar() {
           </ul>
           {pathname !== `/${locale}/schedule` && (
             <Button className="rounded-lg bg-custom-gold-500 px-6 py-3 text-lg font-semibold text-white shadow-md transition duration-300 hover:bg-custom-gold-600">
-              <Link href={`/${locale}/schedule`}>
+              <Link
+                href={`https://book.lpaestheticswellness.com/book/50a4ad48`}
+              >
                 {t("cta.bookAppointment")}
               </Link>
             </Button>

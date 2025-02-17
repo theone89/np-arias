@@ -182,7 +182,10 @@
   "footer": {
     "quickLinks": "Enlaces Rápidos",
     "followUs": "Síguenos",
-    "rights": "Todos los derechos reservados."
+    "rights": "Todos los derechos reservados.",
+    "legal": "Legal",
+    "termsAndConditions": "Términos y Condiciones",
+    "privacyPolicy": "Política de Privacidad"
   },
   "AfterBefore": {
     "title": "Realza Tu Belleza con los Mejores Tratamientos Estéticos",

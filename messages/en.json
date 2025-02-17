@@ -181,7 +181,10 @@
   "footer": {
     "quickLinks": "Quick Links",
     "followUs": "Follow Us",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "legal": "Legal",
+    "termsAndConditions": "Terms and Conditions",
+    "privacyPolicy": "Privacy Policy"
   },
   "AfterBefore": {
     "title": "Enhance Your Beauty with the Best Aesthetic Treatments",
