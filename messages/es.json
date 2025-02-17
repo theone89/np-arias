@@ -11,12 +11,12 @@
     "contact": "Contacto"
   },
   "cta": {
-    "bookAppointment": "Reservar Cita",
+    "bookAppointment": "Agendar Cita",
     "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
   },
   "home": {
     "welcome": "Bienvenido a Nuestra Clínica Estética",
-    "subtitle": "Descubre la Mejor Versión de Ti Mismo",
+    "subtitle": "Descubre la Mejor Versión de Ti",
     "services": {
       "title": "Nuestros Servicios",
       "tratamientosFaciales": {
@@ -35,12 +35,12 @@
           {
             "name": "Microdermoabrasión",
             "description": "Exfolia y mejora la textura de la piel.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment3"
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           },
           {
             "name": "Hidratación y Nutrición",
-            "description": "Proporciona hidratación profunda y nutrición.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment4"
+            "description": "Brinda hidratación profunda y nutrición.",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           }
         ]
       },
@@ -50,17 +50,17 @@
           {
             "name": "Botox para Arrugas",
             "description": "Reduce líneas de expresión y arrugas.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment5"
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           },
           {
             "name": "Rellenos Dérmicos",
             "description": "Restaura volumen y suaviza la piel.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment6"
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           },
           {
             "name": "Mesoterapia Facial",
             "description": "Estimula la regeneración celular.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment7"
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           }
         ]
       },
@@ -69,18 +69,18 @@
         "services": [
           {
             "name": "Reducción de Grasa Localizada",
-            "description": "Elimina grasa en zonas específicas.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment8"
+            "description": "Elimina grasa en áreas específicas.",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           },
           {
             "name": "Criolipólisis",
             "description": "Tratamiento no invasivo para eliminar grasa.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment9"
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           },
           {
             "name": "Masajes Relajantes",
             "description": "Relaja y tonifica tu cuerpo.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment10"
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           }
         ]
       },
@@ -90,30 +90,97 @@
           {
             "name": "Depilación Láser",
             "description": "Eliminación permanente del vello no deseado.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment11"
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           }
         ]
       },
       "rejuvenecimientoYAntiEnvejecimiento": {
-        "title": "Rejuvenecimiento y Antienvejecimiento",
+        "title": "Rejuvenecimiento y Anti-Envejecimiento",
         "services": [
           {
-            "name": "Terapias con Láser",
+            "name": "Terapias Láser",
             "description": "Estimula la producción de colágeno.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment12"
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           },
           {
             "name": "Lifting No Quirúrgico",
-            "description": "Reafirma la piel sin cirugía.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment13"
+            "description": "Tensa la piel sin cirugía.",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           },
           {
             "name": "Tratamientos para Acné y Manchas",
             "description": "Mejora el tono y la textura de la piel.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment14"
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           }
         ]
       }
+    },
+    "testimonials": {
+      "title": "Lo Que Dicen Nuestros Clientes",
+      "testimonial1": {
+        "text": "Atención excelente y resultados increíbles. ¡Muy recomendado!",
+        "author": "María G."
+      },
+      "testimonial2": {
+        "text": "Profesionales altamente calificados. Ahora me siento mucho más seguro.",
+        "author": "Carlos R."
+      }
+    },
+    "promotions": {
+      "title": "Promociones Especiales",
+      "description": "¡20% de descuento en todos los tratamientos faciales este mes!",
+      "cta": "Ver Todas las Ofertas"
     }
+  },
+  "footer": {
+    "quickLinks": "Enlaces Rápidos",
+    "followUs": "Síguenos",
+    "rights": "Todos los derechos reservados."
+  },
+  "AfterBefore": {
+    "title": "Realza Tu Belleza con los Mejores Tratamientos Estéticos",
+    "subtitle": "Procedimientos seguros y personalizados para",
+    "cta": "Reserva una Consulta Gratuita",
+    "sliderText": "Desliza para comparar",
+    "work1": {
+      "title": "Rejuvenecimiento Facial",
+      "description": "Tratamiento avanzado para mejorar la textura y luminosidad de la piel.",
+      "date": "Disponible todo el año"
+    },
+    "work2": {
+      "title": "Depilación Láser",
+      "description": "Eliminación del vello no deseado con tecnología láser de última generación.",
+      "date": "Promoción especial en febrero de 2025"
+    },
+    "work3": {
+      "title": "Terapia de Adelgazamiento Corporal",
+      "description": "Tratamientos corporales para reducción de grasa y tonificación.",
+      "date": "Nuevas sesiones disponibles en marzo de 2025"
+    },
+    "work4": {
+      "title": "Aplicación de Botox",
+      "description": "Procedimiento seguro y efectivo para reducir líneas de expresión.",
+      "date": "Consulta gratuita en abril de 2025"
+    }
+  },
+  "Schedule": {
+    "title": "Agenda una Consulta Gratuita",
+    "namePlaceholder": "Tu nombre",
+    "emailPlaceholder": "Tu correo electrónico",
+    "phonePlaceholder": "Tu número de teléfono",
+    "datePlaceholder": "Selecciona una fecha",
+    "cta": "Agendar Cita",
+    "loading": "Enviando...",
+    "successMessage": "Tu cita ha sido agendada con éxito. Revisa tu correo para más detalles.",
+    "errorMessage": "Hubo un error al enviar la solicitud. Por favor, intenta de nuevo."
+  },
+  "SchedulerConsultation": {
+    "title": "¡Encuentra Tu Cita Perfecta!",
+    "cta": "¡Reserva Ahora y Asegura Tu Lugar!"
+  },
+  "metadata": {
+    "title": "Clínica Estética | Tratamientos de Belleza y Medicina Estética",
+    "description": "Descubre los mejores tratamientos estéticos en nuestra clínica. Ofrecemos botox, depilación láser, rejuvenecimiento facial y más. ¡Resultados naturales y profesionales!",
+    "keywords": "clínica estética, tratamientos de belleza, medicina estética, depilación láser, botox, rejuvenecimiento facial, tratamientos corporales, cirugía plástica, clínica de belleza, centro estético"
   }
 }

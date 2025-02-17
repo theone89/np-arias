@@ -35,12 +35,12 @@
           {
             "name": "Microdermabrasion",
             "description": "Exfoliate and improve skin texture.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment3"
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           },
           {
             "name": "Hydration & Nutrition",
             "description": "Provides deep hydration and nourishment.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment4"
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           }
         ]
       },
@@ -50,17 +50,17 @@
           {
             "name": "Botox for Wrinkles",
             "description": "Reduces expression lines and wrinkles.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment5"
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           },
           {
             "name": "Dermal Fillers",
             "description": "Restores volume and smooths the skin.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment6"
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           },
           {
             "name": "Facial Mesotherapy",
             "description": "Stimulates cell regeneration.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment7"
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           }
         ]
       },
@@ -70,17 +70,17 @@
           {
             "name": "Localized Fat Reduction",
             "description": "Eliminates fat in specific areas.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment8"
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           },
           {
             "name": "Cryolipolysis",
             "description": "Non-invasive fat elimination treatment.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment9"
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           },
           {
             "name": "Relaxing Massages",
             "description": "Relaxes and tones your body.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment10"
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           }
         ]
       },
@@ -90,7 +90,7 @@
           {
             "name": "Laser Hair Removal",
             "description": "Permanent removal of unwanted hair.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment11"
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           }
         ]
       },
@@ -100,17 +100,17 @@
           {
             "name": "Laser Therapies",
             "description": "Stimulates collagen production.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment12"
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           },
           {
             "name": "Non-Surgical Lifting",
             "description": "Tightens the skin without surgery.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment13"
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           },
           {
             "name": "Acne & Spot Treatments",
             "description": "Improves skin tone and texture.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment14"
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           }
         ]
       }
