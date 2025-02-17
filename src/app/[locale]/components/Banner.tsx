@@ -37,7 +37,9 @@ export default function Banner() {
           className="mt-6 rounded-lg bg-custom-gold-500 px-6 py-3 text-lg font-semibold text-white shadow-md transition duration-300 hover:bg-custom-gold-600 focus:outline-none focus:ring-4 focus:ring-custom-gold-300"
           asChild
         >
-          <Link href={`${locale}/schedule`}>{t("cta.bookAppointment")}</Link>
+          <Link href={`https://book.lpaestheticswellness.com/book/50a4ad48`}>
+            {t("cta.bookAppointment")}
+          </Link>
         </Button>
       </div>
     </section>

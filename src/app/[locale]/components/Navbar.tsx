@@ -140,7 +140,9 @@ export default function Navbar() {
               <li>
                 {pathname !== `/${locale}/schedule` && (
                   <Button className="w-full mt-2 bg-custom-teal-500 text-white hover:bg-custom-teal-600 dark:bg-custom-teal-600 dark:hover:bg-custom-teal-700">
-                    <Link href={`/${locale}/schedule`}>
+                    <Link
+                      href={`https://book.lpaestheticswellness.com/book/50a4ad48`}
+                    >
                       {t("cta.bookAppointment")}
                     </Link>
                   </Button>
