@@ -19,98 +19,144 @@
     "subtitle": "Discover the Best Version of Yourself",
     "services": {
       "title": "Our Services",
-      "tratamientosFaciales": {
+      "ctaOptions": "See Options",
+      "facialTreatments": {
         "title": "Facial Treatments",
         "services": [
           {
             "name": "Deep Cleansing",
-            "description": "Eliminate impurities and revitalize your skin.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
+            "description": "Eliminates impurities and revitalizes your skin",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48",
+            "subServices": [
+              {
+                "name": "Full Facial",
+                "description": "Comprehensive treatment for deep cleansing",
+                "price": "$120.00",
+                "duration": "1h"
+              }
+            ]
           },
           {
-            "name": "Chemical Peels",
-            "description": "Renew your skin and reduce imperfections.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
-          },
-          {
-            "name": "Microdermabrasion",
-            "description": "Exfoliate and improve skin texture.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment3"
-          },
-          {
-            "name": "Hydration & Nutrition",
-            "description": "Provides deep hydration and nourishment.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment4"
+            "name": "Chemical Peel",
+            "description": "Renews your skin and reduces imperfections",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48",
+            "subServices": [
+              {
+                "name": "Light Peel",
+                "description": "Mild exfoliation for a fresh look",
+                "price": "$150.00",
+                "duration": "45m"
+              },
+              {
+                "name": "Medium Peel",
+                "description": "Stronger exfoliation to combat deeper skin issues",
+                "price": "$250.00",
+                "duration": "1h"
+              }
+            ]
           }
         ]
       },
-      "inyeccionesYRellenos": {
-        "title": "Injections and Fillers",
+      "injectables": {
+        "title": "Injectables",
         "services": [
           {
             "name": "Botox for Wrinkles",
-            "description": "Reduces expression lines and wrinkles.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment5"
+            "description": "Reduces expression lines and wrinkles",
+            "subServices": [
+              {
+                "name": "3 Areas (Forehead, Glabella, Crow's Feet)",
+                "price": "$550.00",
+                "duration": "45m"
+              },
+              {
+                "name": "Baby Botox",
+                "price": "$350.00",
+                "duration": "30m"
+              }
+            ]
           },
           {
             "name": "Dermal Fillers",
-            "description": "Restores volume and smooths the skin.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment6"
-          },
-          {
-            "name": "Facial Mesotherapy",
-            "description": "Stimulates cell regeneration.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment7"
+            "description": "Hyaluronic acid fillers to restore volume and smooth wrinkles",
+            "subServices": [
+              {
+                "name": "Half Syringe (0.5 ML)",
+                "price": "$350.00",
+                "duration": "30m"
+              },
+              {
+                "name": "Full Syringe (1 ML)",
+                "price": "$650.00",
+                "duration": "1h"
+              }
+            ]
           }
         ]
       },
-      "tratamientosCorporales": {
-        "title": "Body Treatments",
+      "bodyContouring": {
+        "title": "Body Contouring",
         "services": [
           {
-            "name": "Localized Fat Reduction",
-            "description": "Eliminates fat in specific areas.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment8"
-          },
-          {
             "name": "Cryolipolysis",
-            "description": "Non-invasive fat elimination treatment.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment9"
+            "description": "Non-invasive fat elimination",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           },
           {
-            "name": "Relaxing Massages",
-            "description": "Relaxes and tones your body.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment10"
+            "name": "Radiofrequency Treatments",
+            "description": "Skin tightening and collagen stimulation"
           }
         ]
       },
-      "depilacionLaser": {
-        "title": "Laser Hair Removal",
+      "wellnessTherapies": {
+        "title": "Wellness Therapies",
+        "services": [
+          {
+            "name": "Myer’s Cocktail IV",
+            "description": "IV therapy for overall health and hydration",
+            "price": "$170.00",
+            "duration": "1h"
+          },
+          {
+            "name": "Immunity Boost IV",
+            "description": "IV therapy to boost your immune system",
+            "price": "$150.00",
+            "duration": "1h"
+          }
+        ]
+      },
+      "advancedTreatments": {
+        "title": "Advanced Treatments",
+        "services": [
+          {
+            "name": "PRP Therapy",
+            "description": "Platelet-rich plasma therapy for facial rejuvenation and hair restoration",
+            "subServices": [
+              {
+                "name": "Facial Rejuvenation (3 Sessions Package)",
+                "price": "$550.00",
+                "duration": "30m"
+              },
+              {
+                "name": "Hair Restoration (3 Sessions Package)",
+                "price": "$550.00",
+                "duration": "30m"
+              }
+            ]
+          }
+        ]
+      },
+      "laserTreatments": {
+        "title": "Laser Treatments",
         "services": [
           {
             "name": "Laser Hair Removal",
-            "description": "Permanent removal of unwanted hair.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment11"
-          }
-        ]
-      },
-      "rejuvenecimientoYAntiEnvejecimiento": {
-        "title": "Rejuvenation and Anti-Aging",
-        "services": [
-          {
-            "name": "Laser Therapies",
-            "description": "Stimulates collagen production.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment12"
+            "description": "Permanent hair reduction",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
           },
           {
-            "name": "Non-Surgical Lifting",
-            "description": "Tightens the skin without surgery.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment13"
-          },
-          {
-            "name": "Acne & Spot Treatments",
-            "description": "Improves skin tone and texture.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/appointment14"
+            "name": "Laser Skin Resurfacing",
+            "description": "Improves skin texture and tone"
           }
         ]
       }
