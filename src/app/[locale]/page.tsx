@@ -21,12 +21,12 @@ const HomePage: React.FC = () => {
         <section>
           <Service />
         </section>
-        <section>
+        {/*  <section>
           <Testimonial />
         </section>
         <section>
           <Promotion />
-        </section>
+        </section> */}
       </main>
     </div>
   );
