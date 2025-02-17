@@ -26,7 +26,9 @@ export default function Service() {
           description: string;
           price: string;
           duration: string;
-        }>;
+        }> | null;
+        price?: string;
+        duration?: string;
       }>;
     };
   }>({});
@@ -152,51 +154,64 @@ export default function Service() {
                         {service.description}
                       </p>
 
-                      {/* Dropdown de sub servicios */}
-                      {service.subServices &&
-                        service.subServices.length > 0 && (
-                          <div className="mt-4">
-                            <button
-                              className="flex items-center justify-between w-full py-2 px-4 bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-gray-100 rounded-lg transition-colors hover:bg-gray-200 dark:hover:bg-gray-600"
-                              onClick={() =>
-                                setExpandedService(
-                                  expandedService === index ? null : index
-                                )
-                              }
-                            >
-                              <span> {t("home.services.ctaOptions")}</span>
-                              {expandedService === index ? (
-                                <ChevronUp className="w-5 h-5" />
-                              ) : (
-                                <ChevronDown className="w-5 h-5" />
-                              )}
-                            </button>
-
-                            {expandedService === index && (
-                              <div className="mt-3 bg-gray-50 dark:bg-gray-800 p-4 rounded-lg shadow-inner transition-all">
-                                {service.subServices.map((sub, idx) => (
-                                  <div
-                                    key={idx}
-                                    className="mb-3 p-3 border border-gray-200 dark:border-gray-600 rounded-lg"
-                                  >
-                                    <h5 className="font-semibold text-gray-900 dark:text-gray-100">
-                                      {sub.name}
-                                    </h5>
-                                    <p className="text-sm text-gray-600 dark:text-gray-300">
-                                      {sub.description}
-                                    </p>
-                                    <p className="text-sm text-custom-gold-500 font-semibold">
-                                      Precio: {sub.price}
-                                    </p>
-                                    <p className="text-sm text-gray-500">
-                                      Duración: {sub.duration}
-                                    </p>
-                                  </div>
-                                ))}
-                              </div>
+                      {/* Mostrar subservicios si existen, de lo contrario, mostrar precio y duración directamente */}
+                      {service.subServices && service.subServices.length > 0 ? (
+                        <div className="mt-4">
+                          <button
+                            className="flex items-center justify-between w-full py-2 px-4 bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-gray-100 rounded-lg transition-colors hover:bg-gray-200 dark:hover:bg-gray-600"
+                            onClick={() =>
+                              setExpandedService(
+                                expandedService === index ? null : index
+                              )
+                            }
+                          >
+                            <span> {t("home.services.ctaOptions")}</span>
+                            {expandedService === index ? (
+                              <ChevronUp className="w-5 h-5" />
+                            ) : (
+                              <ChevronDown className="w-5 h-5" />
                             )}
-                          </div>
-                        )}
+                          </button>
+
+                          {expandedService === index && (
+                            <div className="mt-3 bg-gray-50 dark:bg-gray-800 p-4 rounded-lg shadow-inner transition-all">
+                              {service.subServices.map((sub, idx) => (
+                                <div
+                                  key={idx}
+                                  className="mb-3 p-3 border border-gray-200 dark:border-gray-600 rounded-lg"
+                                >
+                                  <h5 className="font-semibold text-gray-900 dark:text-gray-100">
+                                    {sub.name}
+                                  </h5>
+                                  <p className="text-sm text-gray-600 dark:text-gray-300">
+                                    {sub.description}
+                                  </p>
+                                  <p className="text-sm text-custom-gold-500 font-semibold">
+                                    Precio: {sub.price}
+                                  </p>
+                                  <p className="text-sm text-gray-500">
+                                    Duración: {sub.duration}
+                                  </p>
+                                </div>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      ) : (
+                        // Si no hay subservicios, mostrar el precio y duración directamente
+                        <div className="mt-4">
+                          {service.price && (
+                            <p className="text-sm text-custom-gold-500 font-semibold">
+                              Precio: {service.price}
+                            </p>
+                          )}
+                          {service.duration && (
+                            <p className="text-sm text-gray-500">
+                              Duración: {service.duration}
+                            </p>
+                          )}
+                        </div>
+                      )}
 
                       <Link href={serviceBookingUrl}>
                         <button className="w-full mt-4 py-2 px-4 text-white font-semibold bg-custom-gold-500 rounded-lg transition-transform duration-200 hover:bg-custom-gold-600 active:scale-95">
