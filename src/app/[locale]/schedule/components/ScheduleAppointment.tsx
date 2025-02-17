@@ -87,6 +87,7 @@ function ReservationModal({
       duration: "30min",
       description:
         "Botulinum toxin injection to relax facial muscles and reduce wrinkles for aesthetic purposes.",
+      type: "Aesthetic",
     },
     {
       name: "Botulinum toxin injection for muscle spasms (Medical)",
@@ -94,6 +95,7 @@ function ReservationModal({
       duration: "40min",
       description:
         "Botulinum toxin injection used to treat muscle spasms and alleviate discomfort in medical conditions.",
+      type: "Medical",
     },
     {
       name: "Botulinum toxin for excessive sweating (Hyperhidrosis)",
@@ -101,8 +103,163 @@ function ReservationModal({
       duration: "45min",
       description:
         "Injection of botulinum toxin to reduce excessive sweating, particularly in underarms, palms, and feet.",
+      type: "Medical",
     },
+    {
+      name: "Dermal Fillers (Restylane, Juvederm, Versa) - Half Syringe (0.5 ML)",
+      price: 350.0,
+      duration: "30min",
+      description:
+        "Injectable substances used to restore volume, smooth wrinkles, and enhance facial features.",
+      type: "Aesthetic",
+    },
+    {
+      name: "Dermal Fillers (Restylane, Juvederm, Versa) - Full Syringe (1 ML)",
+      price: 650.0,
+      duration: "1h",
+      description:
+        "Injectable substances used to restore volume, smooth wrinkles, and enhance facial features.",
+      type: "Aesthetic",
+    },
+    {
+      name: "Hylenex Filler Reversal Treatments",
+      price: 200.0,
+      duration: "30min",
+      description:
+        "Injectable enzyme to reverse or dissolve dermal filler effects, particularly for hyaluronic acid-based fillers.",
+      type: "Aesthetic",
+    },
+    {
+      name: "Bio-filler with Plasma Gel - 1 Treatment",
+      price: 500.0,
+      duration: "1h",
+      description:
+        "A dermal filler made using the patient’s own blood plasma to restore volume, reduce wrinkles, and improve skin texture.",
+      type: "Aesthetic",
+    },
+    {
+      name: "Bio-filler with Plasma Gel - 2 Treatments",
+      price: 950.0,
+      duration: "1h",
+      description:
+        "A dermal filler made using the patient’s own blood plasma to restore volume, reduce wrinkles, and improve skin texture.",
+      type: "Aesthetic",
+    },
+    {
+      name: "Skinvive Filler",
+      price: 550.0,
+      duration: "40min",
+      description:
+        "A hydration booster that deeply hydrates the skin to improve its texture, providing a refreshed, natural look.",
+      type: "Aesthetic",
+    },
+    {
+      name: "Radiesse (Collagen Biostimulator) - Full Syringe (1 ML)",
+      price: 800.0,
+      duration: "1h",
+      description:
+        "A collagen-stimulating dermal filler that adds volume and reduces wrinkles, while encouraging collagen production.",
+      type: "Aesthetic",
+    },
+    {
+      name: "Butt Lift with Radiesse - 10 Syringes",
+      price: 3000.0,
+      duration: "45min",
+      description:
+        "Radiesse injections for a butt lift, restoring volume and improving contours.",
+      type: "Aesthetic",
+    },
+    {
+      name: "Sculptra (Collagen Biostimulator) - Vial",
+      price: 700.0,
+      duration: "1h",
+      description:
+        "A poly-L-lactic acid-based treatment that stimulates collagen production to restore volume and improve skin texture.",
+      type: "Aesthetic",
+    },
+    {
+      name: "Microneedling - 1 Treatment",
+      price: 150.0,
+      duration: "1h 15m",
+      description:
+        "A treatment that uses tiny needles to stimulate collagen production, improving skin texture and reducing wrinkles.",
+      type: "Aesthetic",
+    },
+    {
+      name: "Hormone Replacement Therapy (HRT) - New Patients (Women)",
+      price: 350.0,
+      duration: "40min",
+      description:
+        "HRT for managing menopause symptoms such as hot flashes, night sweats, and mood swings.",
+      type: "Medical",
+    },
+    {
+      name: "Hormone Replacement Therapy (HRT) - New Patients (Men)",
+      price: 750.0,
+      duration: "40min",
+      description:
+        "HRT for men to treat low testosterone levels, alleviating symptoms like fatigue and low libido.",
+      type: "Medical",
+    },
+    {
+      name: "IV Therapy - Brainstorm",
+      price: 160.0,
+      duration: "1h",
+      description:
+        "An intravenous infusion to boost mental clarity, focus, and cognitive function.",
+      type: "Medical",
+    },
+    {
+      name: "Kybella - 1 Vial",
+      price: 450.0,
+      duration: "30min",
+      description:
+        "An injectable treatment to reduce submental fat (double chin), offering permanent results after fat cells are destroyed.",
+      type: "Aesthetic",
+    },
+    {
+      name: "Neurotoxin Injections - 3 Areas",
+      price: 550.0,
+      duration: "45min",
+      description:
+        "Neurotoxin injections used to reduce wrinkles, such as crow's feet, frown lines, and forehead lines.",
+      type: "Aesthetic",
+    },
+    {
+      name: "Neurotoxin Injections Follow-up",
+      price: 0.0,
+      duration: "30min",
+      description:
+        "A follow-up session after neurotoxin injections to assess results and make necessary adjustments.",
+      type: "Aesthetic",
+    },
+    {
+      name: "PRP Therapy - 1 Session",
+      price: 250.0,
+      duration: "30min",
+      description:
+        "Platelet-Rich Plasma therapy to rejuvenate the skin and stimulate hair growth by using your own blood.",
+      type: "Aesthetic",
+    },
+    {
+      name: "Mesotherapy - 1 Session",
+      price: 150.0,
+      duration: "30min",
+      description:
+        "A non-surgical treatment injecting vitamins and nutrients to rejuvenate the skin and reduce fat.",
+      type: "Aesthetic",
+    },
+    {
+      name: "Weight Loss Program - 1st Month (Semaglutide)",
+      price: 250.0,
+      duration: "30min",
+      description:
+        "A weight loss program using Semaglutide to aid in fat burning and appetite control.",
+      type: "Medical",
+    },
+    // Add all other services following the same pattern...
   ];
+
   const times = [
     {
       label: "1:15 PM - 1:50 PM",
