@@ -26,7 +26,7 @@
           {
             "name": "Deep Cleansing",
             "description": "Eliminates impurities and revitalizes your skin",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/adcf510c",
             "subServices": [
               {
                 "name": "Full Facial",
@@ -39,7 +39,7 @@
           {
             "name": "Chemical Peel",
             "description": "Renews your skin and reduces imperfections",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/538e0119",
             "subServices": [
               {
                 "name": "Light Peel",
@@ -63,6 +63,7 @@
           {
             "name": "Botox for Wrinkles",
             "description": "Reduces expression lines and wrinkles",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/c665b5ce",
             "subServices": [
               {
                 "name": "3 Areas (Forehead, Glabella, Crow's Feet)",
@@ -79,6 +80,7 @@
           {
             "name": "Dermal Fillers",
             "description": "Hyaluronic acid fillers to restore volume and smooth wrinkles",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/66dcda09",
             "subServices": [
               {
                 "name": "Half Syringe (0.5 ML)",
@@ -100,11 +102,12 @@
           {
             "name": "Cryolipolysis",
             "description": "Non-invasive fat elimination",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/63810315"
           },
           {
             "name": "Radiofrequency Treatments",
-            "description": "Skin tightening and collagen stimulation"
+            "description": "Skin tightening and collagen stimulation",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/bfe1c54c"
           }
         ]
       },
@@ -115,13 +118,15 @@
             "name": "Myer’s Cocktail IV",
             "description": "IV therapy for overall health and hydration",
             "price": "$170.00",
-            "duration": "1h"
+            "duration": "1h",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/911988ac"
           },
           {
             "name": "Immunity Boost IV",
             "description": "IV therapy to boost your immune system",
             "price": "$150.00",
-            "duration": "1h"
+            "duration": "1h",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/fdf9433a"
           }
         ]
       },
@@ -131,6 +136,7 @@
           {
             "name": "PRP Therapy",
             "description": "Platelet-rich plasma therapy for facial rejuvenation and hair restoration",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/d6293f93",
             "subServices": [
               {
                 "name": "Facial Rejuvenation (3 Sessions Package)",
@@ -152,11 +158,12 @@
           {
             "name": "Laser Hair Removal",
             "description": "Permanent hair reduction",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/94a4a93c"
           },
           {
             "name": "Laser Skin Resurfacing",
-            "description": "Improves skin texture and tone"
+            "description": "Improves skin texture and tone",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/93cb6b44"
           }
         ]
       }
