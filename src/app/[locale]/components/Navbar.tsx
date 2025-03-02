@@ -91,7 +91,7 @@ export default function Navbar() {
           {pathname !== `/${locale}/schedule` && (
             <Button className="rounded-lg bg-custom-gold-500 px-6 py-3 text-lg font-semibold text-white shadow-md transition duration-300 hover:bg-custom-gold-600">
               <Link
-                href={`https://book.lpaestheticswellness.com/book/50a4ad48`}
+                href={`https://book.lpaestheticswellness.com/book/d87d9326`}
               >
                 {t("cta.bookAppointment")}
               </Link>
@@ -141,7 +141,7 @@ export default function Navbar() {
                 {pathname !== `/${locale}/schedule` && (
                   <Button className="w-full mt-2 bg-custom-teal-500 text-white hover:bg-custom-teal-600 dark:bg-custom-teal-600 dark:hover:bg-custom-teal-700">
                     <Link
-                      href={`https://book.lpaestheticswellness.com/book/50a4ad48`}
+                      href={`https://book.lpaestheticswellness.com/book/d87d9326`}
                     >
                       {t("cta.bookAppointment")}
                     </Link>

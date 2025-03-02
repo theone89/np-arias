@@ -52,7 +52,7 @@ export function AfterBefore() {
           {t("subtitle")}
         </p>
         <Link
-          href={`https://book.lpaestheticswellness.com/book/50a4ad48`}
+          href={`https://book.lpaestheticswellness.com/book/d87d9326`}
           className="px-6 py-3 bg-custom-gold-500 text-white rounded-lg shadow-lg hover:bg-custom-gold-600 inline-flex items-center"
         >
           <Calendar className="w-5 h-5 mr-2" />
