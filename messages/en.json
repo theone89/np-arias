@@ -12,7 +12,7 @@
   },
   "cta": {
     "bookAppointment": "Book Appointment",
-    "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
+    "bookingUrl": "https://book.lpaestheticswellness.com/book/d87d9326"
   },
   "home": {
     "welcome": "Welcome to Our Aesthetic Clinic",
@@ -26,7 +26,7 @@
           {
             "name": "PRP (Platelet-Rich Plasma) with Deep Facial Cleansing",
             "description": "Used to rejuvenate the skin, improve texture, and restore hair growth by stimulating cell regeneration.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/adcf510c",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/d87d9326",
             "subServices": [
               {
                 "name": "1 Session",
@@ -57,7 +57,7 @@
           {
             "name": "PRP and Mesotherapy with Hyaluronic Acid",
             "description": "PRP and mesotherapy with hyaluronic acid",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/538e0119",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/d87d9326",
             "subServices": [
               {
                 "name": "1 Session",
@@ -70,7 +70,7 @@
           {
             "name": "PRP for Hair Restoration",
             "description": "A specialized form of PRP to stimulate hair growth.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/538e0119",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/d87d9326",
             "subServices": [
               {
                 "name": "1 Session",
@@ -89,7 +89,7 @@
           {
             "name": "Chemical Peel",
             "description": "Revitalize your skin and reduce imperfections",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/538e0119",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/d87d9326",
             "subServices": [
               {
                 "name": "1 Session",
@@ -113,7 +113,7 @@
           {
             "name": "Restylane, Juvederm, Versa",
             "description": "These hyaluronic acid-based fillers are used to treat wrinkles and fine lines. They can also enhance facial features such as lips and cheeks.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/94a4a93c",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/d87d9326",
             "subServices": [
               {
                 "name": "Half Syringe (0.5 ML)",
@@ -132,7 +132,7 @@
           {
             "name": "Filler Reversal Treatments with Hylenex",
             "description": "Used to dissolve hyaluronic acid fillers if the results are not as desired.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/93cb6b44",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/d87d9326",
             "subServices": [
               {
                 "name": "",
@@ -145,7 +145,7 @@
           {
             "name": "Dermal Fillers Follow-up",
             "description": "Follow-up session to evaluate results and make adjustments if necessary.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/93cb6b44",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/d87d9326",
             "subServices": [
               {
                 "name": "",
@@ -158,7 +158,7 @@
           {
             "name": "Skinvive Filler",
             "description": "A newer hyaluronic acid filler designed to improve skin quality, especially its texture and radiance.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/93cb6b44",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/d87d9326",
             "subServices": [
               {
                 "name": "",
@@ -171,7 +171,7 @@
           {
             "name": "Collagen Biostimulators (Sculptra, Radiesse)",
             "description": "These stimulate collagen production over time, providing a more gradual and lasting result.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/93cb6b44",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/d87d9326",
             "subServices": [
               {
                 "name": "Radiesse",

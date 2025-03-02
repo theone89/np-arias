@@ -12,7 +12,7 @@
   },
   "cta": {
     "bookAppointment": "Agendar Cita",
-    "bookingUrl": "https://book.lpaestheticswellness.com/book/50a4ad48"
+    "bookingUrl": "https://book.lpaestheticswellness.com/book/d87d9326"
   },
   "home": {
     "welcome": "Bienvenido a Nuestra Clínica Estética",
@@ -26,7 +26,7 @@
           {
             "name": "PRP (Plasma Rico en Plaquetas) con limpieza facial profunda",
             "description": "Se usa para rejuvenecer la piel, mejorar la textura y restaurar el crecimiento capilar estimulando la regeneración celular.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/adcf510c",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/d87d9326",
             "subServices": [
               {
                 "name": "1 Session",
@@ -57,7 +57,7 @@
           {
             "name": "PRP y mesoterapia con ácido hialurónico",
             "description": "PRP y mesoterapia con ácido hialurónico",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/538e0119",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/d87d9326",
             "subServices": [
               {
                 "name": "1 Session",
@@ -70,7 +70,7 @@
           {
             "name": "PRP para restauración capilar",
             "description": "Una forma especializada de PRP para estimular el crecimiento del cabello.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/538e0119",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/d87d9326",
             "subServices": [
               {
                 "name": "1 Session",
@@ -89,7 +89,7 @@
           {
             "name": "Peeling químico",
             "description": "Renueva tu piel y reduce imperfecciones",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/538e0119",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/d87d9326",
             "subServices": [
               {
                 "name": "1 Session",
@@ -113,7 +113,7 @@
           {
             "name": "Restylane, Juvederm, Versa",
             "description": "Estos rellenos a base de ácido hialurónico se utilizan para tratar arrugas y líneas finas. También pueden realzar características faciales como labios y mejillas.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/94a4a93c",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/d87d9326",
              "subServices": [
               {
                 "name": "Media jeringa (0.5 ML)",
@@ -132,7 +132,7 @@
           {
             "name": "Tratamientos de reversión de relleno con Hylenex",
             "description": "Se utiliza para disolver los rellenos a base de ácido hialurónico si los resultados no son los deseados.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/93cb6b44",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/d87d9326",
             "subServices":[
               {
               "name": "",
@@ -145,7 +145,7 @@
           {
             "name": "Seguimiento de rellenos dérmicos",
             "description": "Sesión de seguimiento para evaluar los resultados y realizar ajustes si es necesario.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/93cb6b44",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/d87d9326",
             "subServices":[
               {
               "name": "",
@@ -158,7 +158,7 @@
           {
             "name": "Skinvive Filler",
             "description": "Un relleno de ácido hialurónico más reciente diseñado para mejorar la calidad de la piel, especialmente su textura y luminosidad.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/93cb6b44",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/d87d9326",
             "subServices":[
               {
               "name": "",
@@ -171,7 +171,7 @@
           {
             "name": "Bioestimuladores de colágeno (Sculptra, Radiesse)",
             "description": "Estos estimulan la producción de colágeno con el tiempo, proporcionando un resultado más gradual y duradero.",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/93cb6b44",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/d87d9326",
             "subServices":[
               {
               "name": "Radiesse",

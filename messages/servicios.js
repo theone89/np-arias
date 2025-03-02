@@ -8,7 +8,7 @@ const services = {
       {
         "name": "Limpieza Profunda",
         "description": "Elimina impurezas y revitaliza tu piel",
-        "bookingUrl": "https://book.lpaestheticswellness.com/book/adcf510c",
+        "bookingUrl": "https://book.lpaestheticswellness.com/book/d87d9326",
         "subServices": [
           {
             "name": "Facial Completo",
@@ -21,7 +21,7 @@ const services = {
       {
         "name": "Peeling Químico",
         "description": "Renueva tu piel y reduce imperfecciones",
-        "bookingUrl": "https://book.lpaestheticswellness.com/book/538e0119",
+        "bookingUrl": "https://book.lpaestheticswellness.com/book/d87d9326",
         "subServices": [
           {
             "name": "Peeling Suave",
@@ -140,12 +140,12 @@ const services = {
       {
         "name": "Depilación Láser",
         "description": "Reducción permanente del vello",
-        "bookingUrl": "https://book.lpaestheticswellness.com/book/94a4a93c"
+        "bookingUrl": "https://book.lpaestheticswellness.com/book/d87d9326"
       },
       {
         "name": "Rejuvenecimiento Láser de la Piel",
         "description": "Mejora la textura y el tono de la piel",
-        "bookingUrl": "https://book.lpaestheticswellness.com/book/93cb6b44"
+        "bookingUrl": "https://book.lpaestheticswellness.com/book/d87d9326"
       }
     ]
   }
