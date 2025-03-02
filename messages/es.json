@@ -20,153 +20,745 @@
     "services": {
       "title": "Nuestros Servicios",
       "ctaOptions": "Ver Opciones",
-      "facialTreatments": {
-        "title": "Tratamientos Faciales",
+      "tratamientosFaciales": {
+        "title": "Tratamientos Faciales y de la Piel",
         "services": [
           {
-            "name": "Limpieza Profunda",
-            "description": "Elimina impurezas y revitaliza tu piel",
+            "name": "PRP (Plasma Rico en Plaquetas) con limpieza facial profunda",
+            "description": "Se usa para rejuvenecer la piel, mejorar la textura y restaurar el crecimiento capilar estimulando la regeneración celular.",
             "bookingUrl": "https://book.lpaestheticswellness.com/book/adcf510c",
             "subServices": [
               {
-                "name": "Facial Completo",
-                "description": "Tratamiento integral para una limpieza profunda",
-                "price": "$120.00",
+                "name": "1 Session",
+                "description": "Se usa para rejuvenecer la piel",
+                "price": "$250.00",
+                "duration": "30m"
+              },
+              {
+                "name": "3 Session",
+                "description": "Se usa para rejuvenecer la piel",
+                "price": "$550.00",
+                "duration": "30m"
+              },
+              {
+                "name": "1 Session con mesoterapia",
+                "description": "Se usa para rejuvenecer la piel",
+                "price": "$350.00",
+                "duration": "30m"
+              },
+               {
+                "name": "3 Session con mesoterapia",
+                "description": "Se usa para rejuvenecer la piel",
+                "price": "$750.00",
+                "duration": "30m"
+              }
+            ]
+          },
+          {
+            "name": "PRP y mesoterapia con ácido hialurónico",
+            "description": "PRP y mesoterapia con ácido hialurónico",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/538e0119",
+            "subServices": [
+              {
+                "name": "1 Session",
+                "description": "PRP y mesoterapia con ácido hialurónico",
+                "price": "$250.00",
                 "duration": "1h"
               }
             ]
           },
           {
-            "name": "Peeling Químico",
+            "name": "PRP para restauración capilar",
+            "description": "Una forma especializada de PRP para estimular el crecimiento del cabello.",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/538e0119",
+            "subServices": [
+              {
+                "name": "1 Session",
+                "description": "Una forma especializada de PRP para estimular el crecimiento del cabello.",
+                "price": "$250.00",
+                "duration": "30m"
+              },
+               {
+                "name": "3 Session",
+                "description": "Una forma especializada de PRP para estimular el crecimiento del cabello.",
+                "price": "$550.00",
+                "duration": "30m"
+              }
+            ]
+          },
+          {
+            "name": "Peeling químico",
             "description": "Renueva tu piel y reduce imperfecciones",
             "bookingUrl": "https://book.lpaestheticswellness.com/book/538e0119",
             "subServices": [
               {
-                "name": "Peeling Suave",
-                "description": "Exfoliación leve para un aspecto fresco",
-                "price": "$150.00",
-                "duration": "45m"
-              },
-              {
-                "name": "Peeling Medio",
-                "description": "Exfoliación más intensa para tratar problemas profundos",
+                "name": "1 Session",
+                "description": "Renueva tu piel y reduce imperfecciones",
                 "price": "$250.00",
+                "duration": "1h"
+              },
+               {
+                "name": "3 Session",
+                "description": "Renueva tu piel y reduce imperfecciones",
+                "price": "$600.00",
                 "duration": "1h"
               }
             ]
           }
         ]
       },
-      "injectables": {
-        "title": "Inyectables",
+      "RellenosDermicos": {
+        "title": "Rellenos Dérmicos",
         "services": [
           {
-            "name": "Botox para Arrugas",
-            "description": "Reduce líneas de expresión y arrugas",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/c665b5ce",
-            "subServices": [
+            "name": "Restylane, Juvederm, Versa",
+            "description": "Estos rellenos a base de ácido hialurónico se utilizan para tratar arrugas y líneas finas. También pueden realzar características faciales como labios y mejillas.",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/94a4a93c",
+             "subServices": [
               {
-                "name": "3 Áreas (Frente, Glabela, Patas de Gallo)",
-                "price": "$550.00",
-                "duration": "45m"
-              },
-              {
-                "name": "Baby Botox",
-                "price": "$350.00",
-                "duration": "30m"
-              }
-            ]
-          },
-          {
-            "name": "Rellenos Dérmicos",
-            "description": "Rellenos de ácido hialurónico para restaurar volumen y suavizar arrugas",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/66dcda09",
-            "subServices": [
-              {
-                "name": "Media Jeringa (0.5 ML)",
+                "name": "Media jeringa (0.5 ML)",
+                "description": "0.5 ML",
                 "price": "$350.00",
                 "duration": "30m"
               },
               {
                 "name": "Jeringa Completa (1 ML)",
+                "description": "1 ML",
                 "price": "$650.00",
                 "duration": "1h"
               }
             ]
-          }
-        ]
-      },
-      "bodyContouring": {
-        "title": "Contorno Corporal",
-        "services": [
-          {
-            "name": "Criolipólisis",
-            "description": "Eliminación de grasa de forma no invasiva",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/63810315"
           },
           {
-            "name": "Tratamientos de Radiofrecuencia",
-            "description": "Reafirma la piel y estimula el colágeno",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/bfe1c54c"
-          }
-        ]
-      },
-      "wellnessTherapies": {
-        "title": "Terapias de Bienestar",
-        "services": [
-          {
-            "name": "IV de Cóctel de Myer’s",
-            "description": "Terapia intravenosa para la salud y la hidratación general",
-            "price": "$170.00",
-            "duration": "1h",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/911988ac"
-          },
-          {
-            "name": "IV Refuerzo de Inmunidad",
-            "description": "Terapia intravenosa para potenciar tu sistema inmunológico",
-            "price": "$150.00",
-            "duration": "1h",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/fdf9433a"
-          }
-        ]
-      },
-      "advancedTreatments": {
-        "title": "Tratamientos Avanzados",
-        "services": [
-          {
-            "name": "Terapia PRP",
-            "description": "Terapia con plasma rico en plaquetas para el rejuvenecimiento facial y restauración capilar",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/d6293f93",
-            "subServices": [
+            "name": "Tratamientos de reversión de relleno con Hylenex",
+            "description": "Se utiliza para disolver los rellenos a base de ácido hialurónico si los resultados no son los deseados.",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/93cb6b44",
+            "subServices":[
               {
-                "name": "Rejuvenecimiento Facial (Paquete de 3 Sesiones)",
-                "price": "$550.00",
-                "duration": "30m"
+              "name": "",
+              "description": "",
+              "price": "$200 - $400",
+              "duration": "30m"
+              }
+            ]
+          },
+          {
+            "name": "Seguimiento de rellenos dérmicos",
+            "description": "Sesión de seguimiento para evaluar los resultados y realizar ajustes si es necesario.",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/93cb6b44",
+            "subServices":[
+              {
+              "name": "",
+              "description": "",
+              "price": "Gratis",
+              "duration": "30m"
+              }
+            ]
+          },
+          {
+            "name": "Skinvive Filler",
+            "description": "Un relleno de ácido hialurónico más reciente diseñado para mejorar la calidad de la piel, especialmente su textura y luminosidad.",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/93cb6b44",
+            "subServices":[
+              {
+              "name": "",
+              "description": "",
+              "price": "$550",
+              "duration": "40m"
+              }
+            ]
+          },
+          {
+            "name": "Bioestimuladores de colágeno (Sculptra, Radiesse)",
+            "description": "Estos estimulan la producción de colágeno con el tiempo, proporcionando un resultado más gradual y duradero.",
+            "bookingUrl": "https://book.lpaestheticswellness.com/book/93cb6b44",
+            "subServices":[
+              {
+              "name": "Radiesse",
+              "description": "Jeringa completa ",
+              "price": "$800",
+              "duration": "30m"
               },
               {
-                "name": "Restauración Capilar (Paquete de 3 Sesiones)",
-                "price": "$550.00",
-                "duration": "30m"
+              "name": "Levantamiento de glúteos con Radiesse ",
+              "description": "10-16-20 jeringas",
+              "price": "$3,000 - 4500 - 5500",
+              "duration": "45m - 1h - 1h30m"
+              },
+              {
+              "name": "Sculptra",
+              "description": "Vial ",
+              "price": "$700",
+              "duration": "1h"
               }
             ]
           }
         ]
       },
-      "laserTreatments": {
-        "title": "Tratamientos Láser",
+      "reemplazoHormonal": {
+        "title": "Terapia de Reemplazo Hormonal",
         "services": [
           {
-            "name": "Depilación Láser",
-            "description": "Reducción permanente del vello",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/94a4a93c"
+            "name":"Terapia de Reemplazo Hormonal (Mujeres)",
+            "description":"Tratamiento diseñado para equilibrar las hormonas en hombres y mujeres, mejorando energía, estado de ánimo y salud general",
+            "subServices":[
+              {
+                "name": "Terapia de Reemplazo Hormonal (Mujeres)",
+                "description": "Pacientes nuevos",
+                "price": "$400",
+                "duration": "40m"
+              },
+              {
+                "name": "Terapia de Reemplazo Hormonal (Mujeres)",
+                "description": "Pacientes regulares",
+                "price": "$450",
+                "duration": "40m"
+              }
+             
+            ]
           },
           {
-            "name": "Rejuvenecimiento Láser de la Piel",
-            "description": "Mejora la textura y el tono de la piel",
-            "bookingUrl": "https://book.lpaestheticswellness.com/book/93cb6b44"
+            "name":"Terapia de Reemplazo Hormonal (Hombres)",
+            "description":"Tratamiento diseñado para equilibrar las hormonas en hombres y mujeres, mejorando energía, estado de ánimo y salud general",
+            "subServices":[
+              {
+                "name": "Terapia de Reemplazo Hormonal (Hombres)",
+                "description": "Pacientes nuevos",
+                "price": "$750",
+                "duration": "40m"
+              },
+              {
+                "name": "Terapia de Reemplazo Hormonal (Hombres)",
+                "description": "Pacientes regulares",
+                "price": "$850",
+                "duration": "40m"
+              }
+             
+            ]
+          }
+        ]
+      },
+      "terapiaIntravenosa": {
+    "title": "Terapia Intravenosa (IV Therapy)",
+    "description": "Entrega de líquidos, vitaminas y nutrientes directamente al torrente sanguíneo para una absorción rápida y efectiva.",
+    "services": [
+      {
+        "name": "Brainstorm",
+        "description": "Mejora la claridad mental y función cognitiva",
+        "subServices": [
+          {
+            "name": "1 sesión",
+            "description": "",
+            "price": "$160",
+            "duration": "1h"
+          }
+        ]
+      },
+      {
+        "name": "Immunity",
+        "description": "Refuerza el sistema inmunológico",
+        "subServices": [
+          {
+            "name": "1 sesión",
+            "description": "",
+            "price": "$150",
+            "duration": "1h"
+          }
+        ]
+      },
+      {
+        "name": "Inner Beauty",
+        "description": "Favorece la salud de la piel, uñas y cabello",
+        "subServices": [
+          {
+            "name": "1 sesión",
+            "description": "",
+            "price": "$180",
+            "duration": "1h"
+          }
+        ]
+      },
+      {
+        "name": "Myer’s Cocktail",
+        "description": "Vitaminas y minerales para mejorar la salud y energía",
+        "subServices": [
+          {
+            "name": "1 sesión",
+            "description": "",
+            "price": "$170",
+            "duration": "1h"
+          }
+        ]
+      },
+      {
+        "name": "Recovery & Performance",
+        "description": "Ideal para recuperación física y rendimiento",
+        "subServices": [
+          {
+            "name": "1 sesión",
+            "description": "",
+            "price": "$170",
+            "duration": "1h"
+          }
+        ]
+      },
+      {
+        "name": "NAD IV Therapy",
+        "description": "Mejora la energía, claridad mental y tiene beneficios antienvejecimiento",
+        "subServices": [
+          {
+            "name": "1 sesión",
+            "description": "",
+            "price": "$390",
+            "duration": "2h"
           }
         ]
       }
+    ]
+      },
+      "prfMesoterapia": {
+        "title": "PRF y Mesoterapia",
+        "services": [
+          {
+            "name": "PRF (Plasma Rico en Fibrina)",
+            "description": "Similar al PRP, pero con mayor contenido de fibrina. Se usa para rejuvenecimiento facial, tensado de la piel y restauración capilar.",
+            "subServices": [
+              {
+                "name": "1 sesión",
+                "description": "",
+                "price": "$350",
+                "duration": "1h"
+              },
+              {
+                "name": "3 sesiones",
+                "description": "",
+                "price": "$875",
+                "duration": "1h"
+              }
+            ]
+          },
+          {
+            "name": "Mesoterapia",
+            "description": "Inyecciones de vitaminas, enzimas y medicamentos para pérdida de grasa, rejuvenecimiento de la piel y restauración capilar.",
+            "subServices": [
+              {
+                "name": "1 sesión",
+                "description": "",
+                "price": "$150",
+                "duration": "30min"
+              },
+              {
+                "name": "3 sesiones",
+                "description": "",
+                "price": "$400",
+                "duration": "30min"
+              },
+              {
+                "name": "6 sesiones",
+                "description": "",
+                "price": "$750",
+                "duration": "30min"
+              }
+            ]
+          },
+          {
+            "name": "ADN de Salmón",
+            "description": "Tratamiento rejuvenecedor que utiliza ADN de salmón para reparar daños en la piel y mejorar su elasticidad.",
+            "subServices": [
+              {
+                "name": "1 sesión",
+                "description": "",
+                "price": "$300",
+                "duration": "30min"
+              },
+              {
+                "name": "3 sesiones",
+                "description": "",
+                "price": "$750",
+                "duration": "30min"
+              }
+            ]
+          }
+        ]
+      },
+      "tratamientosInyeccionesPerdidaPeso": {
+        "title": "Tratamientos y Inyecciones para Pérdida de Peso",
+        "services": [
+          {
+            "name": "Programa de pérdida de peso con Semaglutida",
+            "description": "",
+            "subServices": [
+              {
+                "name": "1er mes",
+                "description": "",
+                "price": "$250",
+                "duration": "30min"
+              },
+              {
+                "name": "2do mes",
+                "description": "",
+                "price": "$300",
+                "duration": "30min"
+              },
+              {
+                "name": "3er mes",
+                "description": "",
+                "price": "$350",
+                "duration": "30min"
+              },
+              {
+                "name": "Paquete de 2 meses",
+                "description": "",
+                "price": "$500",
+                "duration": "30min"
+              },
+              {
+                "name": "Paquete de 3 meses",
+                "description": "",
+                "price": "$750",
+                "duration": "30min"
+              }
+            ]
+          },
+          {
+            "name": "Programa de pérdida de peso con Tirzepatida",
+            "description": "",
+            "subServices": [
+              {
+                "name": "1er mes",
+                "description": "",
+                "price": "$300",
+                "duration": "30min"
+              },
+              {
+                "name": "2do mes",
+                "description": "",
+                "price": "$350",
+                "duration": "30min"
+              },
+              {
+                "name": "3er mes",
+                "description": "",
+                "price": "$400",
+                "duration": "30min"
+              }
+            ]
+          },
+          {
+            "name": "Lipo Shot (Lipostat & Lipo-Mino-Mix)",
+            "description": "",
+            "subServices": [
+              {
+                "name": "1 inyección",
+                "description": "",
+                "price": "$35",
+                "duration": "30min"
+              },
+              {
+                "name": "Paquete de 10 inyecciones",
+                "description": "",
+                "price": "$210",
+                "duration": "30min"
+              }
+            ]
+          }
+        ]
+      },
+      "inyeccionesVitaminas": {
+        "title": "Inyecciones de Vitaminas",
+        "services": [
+          {
+            "name": "Glutatión",
+            "description": "Antioxidante para aclarado y desintoxicación de la piel",
+            "subServices": [
+              {
+                "name": "1 inyección",
+                "description": "",
+                "price": "$35",
+                "duration": "15min"
+              }
+            ]
+          },
+          {
+            "name": "Biotina",
+            "description": "Salud del cabello, piel y uñas",
+            "subServices": [
+              {
+                "name": "1 inyección",
+                "description": "",
+                "price": "$35",
+                "duration": "15min"
+              },
+              {
+                "name": "Paquete de 5 inyecciones",
+                "description": "",
+                "price": "$120",
+                "duration": "15min"
+              }
+            ]
+          },
+          {
+            "name": "Vitamina B12",
+            "description": "Energía y metabolismo",
+            "subServices": [
+              {
+                "name": "1 inyección",
+                "description": "",
+                "price": "$35",
+                "duration": "15min"
+              },
+              {
+                "name": "Paquete de 5 inyecciones",
+                "description": "",
+                "price": "$120",
+                "duration": "15min"
+              }
+            ]
+          },
+          {
+            "name": "Ácido fólico",
+            "description": "Crecimiento celular y desarrollo",
+            "subServices": [
+              {
+                "name": "1 inyección",
+                "description": "",
+                "price": "$35",
+                "duration": "15min"
+              }
+            ]
+          },
+          {
+            "name": "Trim Booster",
+            "description": "Vitamina C, Glutatión y Zinc",
+            "subServices": [
+              {
+                "name": "1 inyección",
+                "description": "",
+                "price": "$35",
+                "duration": "15min"
+              }
+            ]
+          },
+          {
+            "name": "Vitamina D3",
+            "description": "Salud ósea e inmunológica",
+            "subServices": [
+              {
+                "name": "1 inyección",
+                "description": "",
+                "price": "$35",
+                "duration": "15min"
+              }
+            ]
+          },
+          {
+            "name": "Vitamina C",
+            "description": "Refuerzo inmunológico y mejora de la piel",
+            "subServices": [
+              {
+                "name": "1 inyección",
+                "description": "",
+                "price": "$35",
+                "duration": "15min"
+              }
+            ]
+          }
+        ]
+      },
+      "eliminacionVerrugasMilium": {
+        "title": "Eliminación de Verrugas y Milium",
+        "services": [
+          {
+            "name": "1-10 verrugas o milium",
+            "description": "",
+            "subServices": [
+              {
+                "name": "",
+                "description": "",
+                "price": "$150",
+                "duration": "1h 30min"
+              }
+            ]
+          },
+          {
+            "name": "10-20 verrugas o milium",
+            "description": "",
+            "subServices": [
+              {
+                "name": "",
+                "description": "",
+                "price": "$250",
+                "duration": "1h 30min"
+              }
+            ]
+          },
+          {
+            "name": "20-30 verrugas o milium",
+            "description": "",
+            "subServices": [
+              {
+                "name": "",
+                "description": "",
+                "price": "$320",
+                "duration": "1h 30min"
+              }
+            ]
+          }
+        ]
+      },
+      "inyeccionesNeurotoxinas": {
+        "title": "Inyecciones de Neurotoxinas",
+        "services": [
+          {
+            "name": "Botox, Dysport, Xeomin, Jeuveau",
+            "description": "",
+            "subServices": [
+              {
+                "name": "3 áreas (Frente, entrecejo, patas de gallo)",
+                "description": "",
+                "price": "$550",
+                "duration": "45 min"
+              },
+              {
+                "name": "2 áreas (Frente y entrecejo)",
+                "description": "",
+                "price": "$400",
+                "duration": "40 min"
+              },
+              {
+                "name": "1 área (Patas de gallo)",
+                "description": "",
+                "price": "$250",
+                "duration": "30 min"
+              },
+              {
+                "name": "Baby Botox",
+                "description": "",
+                "price": "$350",
+                "duration": "30 min"
+              },
+              {
+                "name": "Seguimiento",
+                "description": "",
+                "price": "Gratis",
+                "duration": "30 min"
+              }
+            ]
+          }
+        ]
+      },
+       "neurotoxinasEspecializadas": {
+        "title": "Neurotoxinas Especializadas",
+        "services": [
+          {
+            "name": "Sudoración excesiva",
+            "description": "",
+            "subServices": [
+              {
+                "name": "",
+                "description": "",
+                "price": "$900 - $1,000",
+                "duration": ""
+              }
+            ]
+          },
+          {
+            "name": "Trastorno de la ATM (Mandíbula)",
+            "description": "",
+            "subServices": [
+              {
+                "name": "",
+                "description": "",
+                "price": "$400",
+                "duration": ""
+              }
+            ]
+          },
+          {
+            "name": "Dolor muscular trapecio",
+            "description": "",
+            "subServices": [
+              {
+                "name": "",
+                "description": "",
+                "price": "$900",
+                "duration": ""
+              }
+            ]
+          },
+          {
+            "name": "Lip Flip",
+            "description": "",
+            "subServices": [
+              {
+                "name": "",
+                "description": "",
+                "price": "$150",
+                "duration": ""
+              }
+            ]
+          }
+        ]
+      },
+      "otrosTratamientos": {
+        "title": "Otros Tratamientos",
+        "services": [
+          {
+            "name": "Kybella (Reducción de grasa)",
+            "description": "",
+            "subServices": [
+              {
+                "name": "1 vial",
+                "description": "",
+                "price": "$450",
+                "duration": "30 min"
+              },
+              {
+                "name": "2 viales",
+                "description": "",
+                "price": "$850",
+                "duration": "50 min"
+              }
+            ]
+          },
+          {
+            "name": "Reparación de lóbulos de orejas",
+            "description": "",
+            "subServices": [
+              {
+                "name": "",
+                "description": "",
+                "price": "Desde $250",
+                "duration": ""
+              }
+            ]
+          },
+          {
+            "name": "Eliminación de quistes sebáceos",
+            "description": "",
+            "subServices": [
+              {
+                "name": "",
+                "description": "",
+                "price": "Desde $400",
+                "duration": ""
+              }
+            ]
+          },
+          {
+            "name": "Endoláser (Rejuvenecimiento de cuello y cuerpo)",
+            "description": "",
+            "subServices": [
+              {
+                "name": "",
+                "description": "",
+                "price": "Desde $1,000",
+                "duration": ""
+              }
+            ]
+          }
+        ]
+      }  
     },
     "testimonials": {
       "title": "Lo Que Dicen Nuestros Clientes",
