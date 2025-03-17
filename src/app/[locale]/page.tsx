@@ -18,7 +18,7 @@ const HomePage: React.FC = () => {
         <section>
           <AfterBefore />
         </section>
-        <section>
+        <section id="services">
           <Service />
         </section>
         {/*  <section>

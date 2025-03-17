@@ -52,6 +52,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale}>
       <body className="">
+        
         <NextIntlClientProvider messages={messages}>
           <Navbar />
           {children}

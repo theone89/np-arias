@@ -79,7 +79,7 @@ export default function Navbar() {
               (item) => (
                 <li key={item}>
                   <Link
-                    href={`/#`}
+                    href={`/#${item}`}
                     className="text-custom-brown-700 dark:text-gray-300 hover:text-custom-teal-500 dark:hover:text-custom-teal-400"
                   >
                     {t(`navigation.${item}`)}
