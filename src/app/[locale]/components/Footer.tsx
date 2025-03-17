@@ -1,4 +1,5 @@
 "use client";
+import { Mail, MapPin, Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 import React from "react";
@@ -52,25 +53,35 @@ export default function Footer() {
             <h3 className="text-2xl font-semibold mb-4 text-[#F6B73C]">
               LP Aesthetic & Wellness
             </h3>
-            <p className="mb-2">Address: Calle Principal 123, Ciudad</p>
-            <p className="mb-2">
-              Phone:{" "}
-              <a
-                href="https://wa.me/17868708883?text=Hello,%20I%20am%20interested%20in%20one%20of%20your%20services.%20Can%20you%20provide%20more%20information?"
-                className="hover:text-[#F6B73C]"
-              >
-                +1 (786) 870-8883
-              </a>{" "}
-            </p>
-            <p>
-              Email:{" "}
-              <a
-                href="mailto:info@lpaestheticswellness.com"
-                className="hover:text-[#F6B73C]"
-              >
-                info@lpaestheticswellness.com
-              </a>{" "}
-            </p>
+             {/* Dirección */}
+  <p className="mb-2 flex items-center gap-2">
+    <MapPin className="w-5 h-5 text-[#F6B73C]" />
+              <a href="https://maps.app.goo.gl/MTtHzRkvuqBHencR7" className="hover:text-[#F6B73C]" target="_blank">
+      5734 S Semoran Blvd, Orlando, Florida 32822
+    </a>
+  </p>
+  
+  {/* Teléfono */}
+  <p className="mb-2 flex items-center gap-2">
+    <Phone className="w-5 h-5 text-[#F6B73C]" />
+    <a
+      href="https://wa.me/17868708883?text=Hello,%20I%20am%20interested%20in%20one%20of%20your%20services.%20Can%20you%20provide%20more%20information?"
+      className="hover:text-[#F6B73C]"
+    >
+      +1 (786) 870-8883
+    </a>
+  </p>
+  
+  {/* Email */}
+  <p className="flex items-center gap-2">
+    <Mail className="w-5 h-5 text-[#F6B73C]" />
+    <a
+      href="mailto:info@lpaestheticswellness.com"
+      className="hover:text-[#F6B73C]"
+    >
+      info@lpaestheticswellness.com
+    </a>
+  </p>
           </div>
           <div className="mb-6 md:mb-0">
             <h3 className="text-xl font-semibold mb-4 text-[#F6B73C]">
@@ -117,22 +128,25 @@ export default function Footer() {
             </h3>
             <div className="flex space-x-6">
               <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=61572935438673"
                 className="text-gray-300 hover:text-[#F6B73C] transition-colors"
+                target="_blank"
                 aria-label="Facebook"
               >
                 <FacebookIcon size={24} />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/lpaestheticswellness/"
+                target="_blank"
                 className="text-gray-300 hover:text-[#F6B73C] transition-colors"
                 aria-label="Instagram"
               >
                 <InstagramIcon size={24} />
               </a>
               <a
-                href="#"
+                href="https://x.com/LP_Wellness"
                 className="text-gray-300 hover:text-[#F6B73C] transition-colors"
+                target="_blank"
                 aria-label="Twitter"
               >
                 <TwitterIcon size={24} />
