@@ -49,42 +49,41 @@ export function AfterBefore() {
       <section className="mt-10 grid grid-cols-1 gap-8 p-4 md:grid-cols-2 md:p-6">
         {images.map((image, index) => (
           <motion.div
-            key={index}
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: index * 0.2 }}
-            className="flex flex-col items-center shadow-2xl rounded-lg bg-custom-ivory-100 border-custom-gold-500 border-spacing-2 border-2 dark:bg-custom-terracotta-200 p-6 shadow-custom-ivory-700 transition-transform duration-300 ease-in-out hover:-translate-y-2 md:flex-row"
-          >
-            <div className="md:w-1/2 w-full h-72 flex items-center justify-center">
-              <ReactCompareImage
-                leftImage={image.before}
-                rightImage={image.after}
-                leftImageAlt={t(`work${index + 1}.title`)}
-                rightImageAlt={t(`work${index + 1}.title`)}
-                sliderLineWidth={2}
-                sliderLineColor="#fff"
-                handleSize={30}
-                hover
-             
-              />
-              <p className="mt-2 text-center text-sm text-teal-800 dark:text-teal-950">
-                {t("sliderText")}
-              </p>
-            </div>
-            <div className="mt-4 space-y-2 md:mt-0 md:w-1/2 md:pl-6">
-              <h3 className="text-xl font-bold text-custom-brown-900 dark:text-custom-gold-700">
-                {t(`work${index + 1}.title`)}
-              </h3>
-              <p className="text-custom-brown-600 dark:text-custom-brown-900">
-                {t(`work${index + 1}.description`)}
-              </p>
-              <div className="flex items-center gap-2 text-custom-brown-500 dark:text-custom-brown-900">
-                <CalendarIcon className="h-5 w-5" />
-                <span className="text-sm">{t(`work${index + 1}.date`)}</span>
-              </div>
-            </div>
-          </motion.div>
+  key={index}
+  initial={{ opacity: 0, y: 20 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.5, delay: index * 0.2 }}
+  className="flex flex-col md:flex-row items-center shadow-2xl rounded-lg bg-custom-ivory-100 border-custom-gold-500 border-spacing-2 border-2 dark:bg-custom-terracotta-200 p-6 shadow-custom-ivory-700 transition-transform duration-300 ease-in-out hover:-translate-y-2"
+>
+  {/* Imagen con comparación */}
+  <div className="w-full md:w-1/2 h-auto flex flex-col items-center justify-center">
+    <ReactCompareImage
+      leftImage={image.before}
+      rightImage={image.after}
+      leftImageAlt={t(`work${index + 1}.title`)}
+      rightImageAlt={t(`work${index + 1}.title`)}
+      sliderLineWidth={2}
+      sliderLineColor="#fff"
+      handleSize={30}
+      hover
+    />
+  </div>
+
+  {/* Texto debajo en móviles */}
+  <div className="mt-4 md:mt-0 md:w-1/2 md:pl-6 text-center md:text-left">
+    <h3 className="text-xl font-bold text-custom-brown-900 dark:text-custom-gold-700">
+      {t(`work${index + 1}.title`)}
+    </h3>
+    <p className="text-custom-brown-600 dark:text-custom-brown-900">
+      {t(`work${index + 1}.description`)}
+    </p>
+    <div className="flex justify-center md:justify-start items-center gap-2 text-custom-brown-500 dark:text-custom-brown-900">
+      <CalendarIcon className="h-5 w-5" />
+      <span className="text-sm">{t(`work${index + 1}.date`)}</span>
+    </div>
+  </div>
+</motion.div>
         ))}
       </section>
     </div>

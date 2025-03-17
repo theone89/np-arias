@@ -26,40 +26,40 @@ export default function Banner() {
   }, []);
 
   return (
-    <section
-      className="relative flex items-center justify-center bg-gray-100 dark:bg-gray-100 py-20  h-auto md:h-[600px]"
-      style={{
-        backgroundImage: `url(${bgImage})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-        //height: "600px",
-      }}
-    >
-      {/* Fondo semitransparente */}
-      <div
-        className="absolute inset-0 bg-black bg-opacity-40"
-        aria-hidden="true"
-      ></div>
+  <section
+  className="relative flex items-center justify-center bg-gray-100 dark:bg-gray-100 h-screen"
+  style={{
+    backgroundImage: `url(${bgImage})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+  }}
+>
+  {/* Fondo semitransparente */}
+  <div
+    className="absolute inset-0 bg-black bg-opacity-40"
+    aria-hidden="true"
+  ></div>
 
-      {/* Contenido del banner */}
-      <div className="container mx-auto px-4 text-center relative z-10">
-         <h1 className="text-3xl md:text-4xl font-bold mb-4 text-white drop-shadow-[2px_2px_4px_rgba(0,0,0,0.8)]">
-          {t("home.welcome")}
-        </h1>
-        <p className="text-lg md:text-xl mb-8 text-white drop-shadow-[2px_2px_4px_rgba(0,0,0,0.8)]">
-          {t("home.subtitle")}
-        </p>
-        <Button
-            size="lg"
-  className="mt-6 rounded-lg border-2 border-custom-gold-500 drop-shadow-[2px_2px_4px_rgba(0,0,0,0.8)] bg-transparent px-6 py-3 text-lg font-semibold text-white shadow-md transition duration-300 hover:bg-custom-gold-500 hover:text-black focus:outline-none focus:ring-4 focus:ring-custom-gold-300"
-  asChild
-        >
-          <Link href={`https://book.lpaestheticswellness.com/book/d87d9326`}>
-            {t("cta.bookAppointment")}
-          </Link>
-        </Button>
-      </div>
-    </section>
+  {/* Contenido del banner */}
+  <div className="container mx-auto px-4 text-center relative z-10">
+    <h1 className="text-3xl md:text-4xl font-bold mb-4 text-white drop-shadow-[2px_2px_4px_rgba(0,0,0,0.8)]">
+      {t("home.welcome")}
+    </h1>
+    <p className="text-lg md:text-xl mb-8 text-white drop-shadow-[2px_2px_4px_rgba(0,0,0,0.8)]">
+      {t("home.subtitle")}
+    </p>
+    <Button
+      size="lg"
+      className="mt-6 rounded-lg border-2 border-custom-gold-500 drop-shadow-[2px_2px_4px_rgba(0,0,0,0.8)] bg-transparent px-6 py-3 text-lg font-semibold text-white shadow-md transition duration-300 hover:bg-custom-gold-500 hover:text-black focus:outline-none focus:ring-4 focus:ring-custom-gold-300"
+      asChild
+    >
+      <Link href={`https://book.lpaestheticswellness.com/book/d87d9326`}>
+        {t("cta.bookAppointment")}
+      </Link>
+    </Button>
+  </div>
+</section>
+
   );
 }
