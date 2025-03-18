@@ -30,7 +30,7 @@ export default function ContactForm() {
   setIsSubmitting(true);
 
   try {
-    const response = await fetch(`http://127.0.0.1:3000/${locale}/api/contact`, {
+    const response = await fetch(`/${locale}/api/contact`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
