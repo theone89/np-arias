@@ -75,7 +75,7 @@ export default function Navbar() {
         {/* Menú de escritorio */}
         <div className="hidden md:flex items-center space-x-4">
           <ul className="flex space-x-4">
-            {["about", "services", "testimonials", "blog", "contact"].map(
+            {["about", "services", "testimonials", "blog"].map(
               (item) => (
                 <li key={item}>
                   <Link
@@ -87,6 +87,12 @@ export default function Navbar() {
                 </li>
               )
             )}
+              <Link
+                    href={`/${locale}/contact`}
+                    className="text-custom-brown-700 dark:text-gray-300 hover:text-custom-teal-500 dark:hover:text-custom-teal-400"
+                  >
+                    {t(`navigation.contact`)}
+              </Link>
           </ul>
           {pathname !== `/${locale}/schedule` && (
             <Button className="rounded-lg bg-custom-gold-500 px-6 py-3 text-lg font-semibold text-white shadow-md transition duration-300 hover:bg-custom-gold-600">
@@ -125,11 +131,12 @@ export default function Navbar() {
         <div className="md:hidden bg-custom-ivory-100 dark:bg-gray-800 py-2">
           <div className="container mx-auto px-4">
             <ul className="space-y-2">
-              {["about", "services", "testimonials", "blog", "contact"].map(
+              {["about", "services", "testimonials", "blog"].map(
                 (item) => (
                   <li key={item}>
                     <Link
-                      href={`/${item === "about" ? "sobre-nosotros" : item}`}
+                       onClick={() => setIsMenuOpen(false)}
+                      href={`/${locale}//#${item === "about" ? "sobre-nosotros" : item}`}
                       className="block text-custom-brown-700 dark:text-gray-300 hover:text-custom-teal-500 dark:hover:text-custom-teal-400"
                     >
                       {t(`navigation.${item}`)}
@@ -137,6 +144,12 @@ export default function Navbar() {
                   </li>
                 )
               )}
+              <Link  onClick={() => setIsMenuOpen(false)}
+                      href={`/${locale}/contact`}
+                      className="block text-custom-brown-700 dark:text-gray-300 hover:text-custom-teal-500 dark:hover:text-custom-teal-400"
+                    >
+                      {t(`navigation.contact`)}
+                    </Link>
               <li>
                 {pathname !== `/${locale}/schedule` && (
                   <Button className="w-full mt-2 bg-custom-teal-500 text-white hover:bg-custom-teal-600 dark:bg-custom-teal-600 dark:hover:bg-custom-teal-700">
