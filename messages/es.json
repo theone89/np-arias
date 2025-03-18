@@ -826,6 +826,20 @@
     "title": "¡Encuentra Tu Cita Perfecta!",
     "cta": "¡Reserva Ahora y Asegura Tu Lugar!"
   },
+  "contact": {
+     "contactFormTitle": "Formulario de contacto",
+    "contactFormSubtitle": "Por favor, completa los siguientes datos.",
+    "formNameLabel": "Nombre",
+    "formEmailLabel": "Correo electrónico",
+    "formMessageLabel": "Mensaje",
+    "formSuccess": "¡Tu mensaje fue enviado con éxito!",
+    "submitting": "Enviando...",
+    "submitButton": "Enviar"
+  },
+  "common": {
+    "form": "Formulario de contacto",
+    "thankYou": "Gracias por contactarnos"
+  },
   "metadata": {
     "title": "Clínica Estética | Tratamientos de Belleza y Medicina Estética",
     "description": "Descubre los mejores tratamientos estéticos en nuestra clínica. Ofrecemos botox, depilación láser, rejuvenecimiento facial y más. ¡Resultados naturales y profesionales!",

@@ -824,6 +824,20 @@
     "title": "Unlock Your Perfect Appointment!",
     "cta": "Book Now and Secure Your Spot!"
   },
+   "contact": {
+      "contactFormTitle": "Contact Form",
+    "contactFormSubtitle": "Please fill in the following details.",
+    "formNameLabel": "Name",
+    "formEmailLabel": "Email",
+    "formMessageLabel": "Message",
+    "formSuccess": "Your message was successfully sent!",
+    "submitting": "Submitting...",
+    "submitButton": "Submit"
+  },
+  "common": {
+    "form": "Contact Form",
+    "thankYou": "Thank you for contacting us"
+  },
   "metadata": {
     "title": "Aesthetic Clinic | Beauty and Aesthetic Medicine Treatments",
     "description": "Discover the best aesthetic treatments at our clinic. We offer botox, laser hair removal, facial rejuvenation, and more. Natural and professional results!",
